@@ -1,0 +1,10 @@
+# Add to .gitignore
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+ENV/
