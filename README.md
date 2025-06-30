@@ -2,6 +2,7 @@
 # zeroVault LLM Security Scanner
 
 Comprehensive automated security testing platform for Large Language Models (LLMs).
+Checkout our platform zeroVault: https://amazing-biscotti-dfae9f.netlify.app/
 
 ## 🚀 Features
 
