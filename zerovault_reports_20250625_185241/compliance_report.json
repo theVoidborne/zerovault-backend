@@ -1,0 +1,31 @@
+{
+  "report_type": "compliance_assessment",
+  "scan_id": "5878eeb0-6165-44dd-967d-c9014061947d",
+  "generated_at": "2025-06-25T13:22:42.405344",
+  "compliance_frameworks": {
+    "owasp_llm_top_10_2025": {
+      "compliance_score": 100,
+      "categories_tested": 0,
+      "categories_with_issues": 0,
+      "detailed_mapping": {}
+    },
+    "ai_security_standards": {
+      "nist_ai_rmf": "Partially Compliant",
+      "iso_27001": "Assessment Required",
+      "gdpr_ai_compliance": "Under Review"
+    }
+  },
+  "regulatory_impact": {
+    "data_protection": "No data protection violations detected",
+    "ai_governance": "AI governance practices appear adequate",
+    "industry_standards": "Industry standards compliance maintained"
+  },
+  "audit_trail": {
+    "assessment_methodology": "Real AI vs AI Red Teaming",
+    "authenticity_verified": true,
+    "evidence_collected": 0,
+    "testing_coverage": "OWASP LLM Top 10 2025",
+    "assessor": "ZeroVault AI Security Platform",
+    "assessment_date": "2025-06-25T13:11:40.144437"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "scan_id": "819f208d-0d80-4344-ad6c-c6b5b9fbcef2",
+  "scan_status": "completed",
+  "available_reports": {
+    "executive": "/api/reports/819f208d-0d80-4344-ad6c-c6b5b9fbcef2/executive",
+    "technical": "/api/reports/819f208d-0d80-4344-ad6c-c6b5b9fbcef2/technical",
+    "compliance": "/api/reports/819f208d-0d80-4344-ad6c-c6b5b9fbcef2/compliance"
+  },
+  "scan_summary": {
+    "target_model": "Database Fix Test",
+    "vulnerability_count": 2,
+    "risk_score": 1.33,
+    "completed_at": "2025-06-25T14:17:18.187576",
+    "total_api_calls": 15,
+    "total_tokens_used": 3022
+  }
+}

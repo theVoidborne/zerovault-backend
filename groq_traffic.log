@@ -1,0 +1,1292 @@
+tcpdump: data link type PKTAP
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on any, link-type PKTAP (Apple DLT_PKTAP), snapshot length 524288 bytes
+17:35:45.912236 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [S], seq 1720868491, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2294324391 ecr 0,sackOK,eol], length 0
+17:35:45.927888 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [S.], seq 2808700898, ack 1720868492, win 65535, options [mss 1400,sackOK,TS val 3355568085 ecr 2294324391,nop,wscale 13], length 0
+17:35:45.928023 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2294324407 ecr 3355568085], length 0
+17:35:45.936707 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2294324416 ecr 3355568085], length 192
+17:35:46.068982 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2294324548 ecr 3355568085], length 192
+17:35:46.126998 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [.], ack 193, win 16, options [nop,nop,TS val 3355568279 ecr 2294324416], length 0
+17:35:46.134976 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3355568282 ecr 2294324416], length 1448
+17:35:46.135087 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 2294324614 ecr 3355568282], length 0
+17:35:46.139869 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 3355568282 ecr 2294324416], length 1307
+17:35:46.139995 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [.], ack 2756, win 2027, options [nop,nop,TS val 2294324619 ecr 3355568282], length 0
+17:35:46.143376 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 2294324622 ecr 3355568282], length 93
+17:35:46.158744 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 3355568317 ecr 2294324622], length 51
+17:35:46.158871 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 2294324638 ecr 3355568317], length 0
+17:35:46.162195 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 2294324642 ecr 3355568317], length 498
+17:35:46.162366 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [P.], seq 784:1024, ack 2807, win 2048, options [nop,nop,TS val 2294324642 ecr 3355568317], length 240
+17:35:46.178177 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [.], ack 1024, win 16, options [nop,nop,TS val 3355568337 ecr 2294324642], length 0
+17:35:46.243322 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [P.], seq 2807:3632, ack 1024, win 16, options [nop,nop,TS val 3355568397 ecr 2294324642], length 825
+17:35:46.243437 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 2294324723 ecr 3355568397], length 0
+17:35:46.246855 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [F.], seq 1024, ack 3632, win 2048, options [nop,nop,TS val 2294324726 ecr 3355568397], length 0
+17:35:46.267973 IP 104.18.40.98.443 > 10.44.0.112.57437: Flags [F.], seq 3632, ack 1025, win 16, options [nop,nop,TS val 3355568425 ecr 2294324726], length 0
+17:35:46.268167 IP 10.44.0.112.57437 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 2294324747 ecr 3355568425], length 0
+17:35:49.338089 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [S], seq 3002379732, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 491241407 ecr 0,sackOK,eol], length 0
+17:35:49.356880 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [S.], seq 288569993, ack 3002379733, win 65535, options [mss 1400,sackOK,TS val 1869613090 ecr 491241407,nop,wscale 13], length 0
+17:35:49.356983 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 491241426 ecr 1869613090], length 0
+17:35:49.364894 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 491241434 ecr 1869613090], length 192
+17:35:49.382477 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [.], ack 193, win 16, options [nop,nop,TS val 1869613115 ecr 491241434], length 0
+17:35:49.387656 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1869613120 ecr 491241434], length 1448
+17:35:49.387734 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 491241457 ecr 1869613120], length 0
+17:35:49.393044 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 1869613120 ecr 491241434], length 1306
+17:35:49.393134 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 491241462 ecr 1869613120], length 0
+17:35:49.395678 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 491241464 ecr 1869613120], length 93
+17:35:49.422813 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 1869613152 ecr 491241464], length 51
+17:35:49.422929 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 491241492 ecr 1869613152], length 0
+17:35:49.423741 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 491241492 ecr 1869613152], length 498
+17:35:49.423837 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [P.], seq 784:1001, ack 2806, win 2048, options [nop,nop,TS val 491241492 ecr 1869613152], length 217
+17:35:49.439442 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [.], ack 1001, win 16, options [nop,nop,TS val 1869613173 ecr 491241492], length 0
+17:35:49.488623 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [P.], seq 2806:3631, ack 1001, win 16, options [nop,nop,TS val 1869613220 ecr 491241492], length 825
+17:35:49.488702 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 491241558 ecr 1869613220], length 0
+17:35:49.491585 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [F.], seq 1001, ack 3631, win 2048, options [nop,nop,TS val 491241561 ecr 1869613220], length 0
+17:35:49.518457 IP 104.18.40.98.443 > 10.44.0.112.57440: Flags [F.], seq 3631, ack 1002, win 16, options [nop,nop,TS val 1869613243 ecr 491241561], length 0
+17:35:49.518597 IP 10.44.0.112.57440 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 491241588 ecr 1869613243], length 0
+17:35:52.563877 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [S], seq 389097431, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1830510548 ecr 0,sackOK,eol], length 0
+17:35:52.578502 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [S.], seq 1946469374, ack 389097432, win 65535, options [mss 1400,sackOK,TS val 3410137633 ecr 1830510548,nop,wscale 13], length 0
+17:35:52.578614 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1830510563 ecr 3410137633], length 0
+17:35:52.584788 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1830510569 ecr 3410137633], length 192
+17:35:52.608580 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [.], ack 193, win 16, options [nop,nop,TS val 3410137660 ecr 1830510569], length 0
+17:35:52.615707 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3410137664 ecr 1830510569], length 1448
+17:35:52.615708 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 3410137664 ecr 1830510569], length 1305
+17:35:52.615778 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 1830510600 ecr 3410137664], length 0
+17:35:52.618200 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 1830510602 ecr 3410137664], length 93
+17:35:52.632380 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 3410137687 ecr 1830510602], length 51
+17:35:52.632488 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 1830510617 ecr 3410137687], length 0
+17:35:52.632921 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 1830510617 ecr 3410137687], length 498
+17:35:52.632952 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [P.], seq 784:1017, ack 2805, win 2048, options [nop,nop,TS val 1830510617 ecr 3410137687], length 233
+17:35:52.648393 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [.], ack 1017, win 16, options [nop,nop,TS val 3410137703 ecr 1830510617], length 0
+17:35:52.699425 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [P.], seq 2805:3630, ack 1017, win 16, options [nop,nop,TS val 3410137752 ecr 1830510617], length 825
+17:35:52.699500 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 1830510684 ecr 3410137752], length 0
+17:35:52.701862 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [F.], seq 1017, ack 3630, win 2048, options [nop,nop,TS val 1830510686 ecr 3410137752], length 0
+17:35:52.717078 IP 104.18.40.98.443 > 10.44.0.112.57443: Flags [F.], seq 3630, ack 1018, win 16, options [nop,nop,TS val 3410137772 ecr 1830510686], length 0
+17:35:52.717265 IP 10.44.0.112.57443 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 1830510701 ecr 3410137772], length 0
+17:35:55.791543 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [S], seq 2590750504, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2878785125 ecr 0,sackOK,eol], length 0
+17:35:55.812247 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [S.], seq 3492042699, ack 2590750505, win 65535, options [mss 1400,sackOK,TS val 3159195890 ecr 2878785125,nop,wscale 13], length 0
+17:35:55.812394 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2878785146 ecr 3159195890], length 0
+17:35:55.821698 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2878785155 ecr 3159195890], length 192
+17:35:55.840537 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [.], ack 193, win 16, options [nop,nop,TS val 3159195915 ecr 2878785155], length 0
+17:35:55.840539 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3159195919 ecr 2878785155], length 1448
+17:35:55.840666 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 2878785174 ecr 3159195919], length 0
+17:35:55.842943 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3159195919 ecr 2878785155], length 1306
+17:35:55.843042 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 2878785176 ecr 3159195919], length 0
+17:35:55.848407 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 2878785181 ecr 3159195919], length 93
+17:35:55.867454 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3159195945 ecr 2878785181], length 51
+17:35:55.867571 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 2878785201 ecr 3159195945], length 0
+17:35:55.868597 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 2878785202 ecr 3159195945], length 498
+17:35:55.868762 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2806, win 2048, options [nop,nop,TS val 2878785202 ecr 3159195945], length 222
+17:35:55.888434 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [.], ack 1006, win 16, options [nop,nop,TS val 3159195966 ecr 2878785202], length 0
+17:35:55.931272 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [P.], seq 2806:3631, ack 1006, win 16, options [nop,nop,TS val 3159196009 ecr 2878785202], length 825
+17:35:55.931348 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 2878785265 ecr 3159196009], length 0
+17:35:55.934131 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3631, win 2048, options [nop,nop,TS val 2878785267 ecr 3159196009], length 0
+17:35:55.958328 IP 104.18.40.98.443 > 10.44.0.112.57444: Flags [F.], seq 3631, ack 1007, win 16, options [nop,nop,TS val 3159196031 ecr 2878785267], length 0
+17:35:55.958449 IP 10.44.0.112.57444 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 2878785292 ecr 3159196031], length 0
+17:35:59.011118 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [S], seq 2556934376, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3366645225 ecr 0,sackOK,eol], length 0
+17:35:59.027991 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [S.], seq 4180791617, ack 2556934377, win 65535, options [mss 1400,sackOK,TS val 356623390 ecr 3366645225,nop,wscale 13], length 0
+17:35:59.028098 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3366645242 ecr 356623390], length 0
+17:35:59.034712 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3366645249 ecr 356623390], length 192
+17:35:59.050367 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [.], ack 193, win 16, options [nop,nop,TS val 356623412 ecr 3366645249], length 0
+17:35:59.051552 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 356623414 ecr 3366645249], length 1448
+17:35:59.051554 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 356623414 ecr 3366645249], length 1307
+17:35:59.051611 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 3366645266 ecr 356623414], length 0
+17:35:59.054028 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 3366645268 ecr 356623414], length 93
+17:35:59.068997 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 356623432 ecr 3366645268], length 51
+17:35:59.069063 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 3366645283 ecr 356623432], length 0
+17:35:59.069510 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 3366645283 ecr 356623432], length 498
+17:35:59.069557 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [P.], seq 784:1012, ack 2807, win 2048, options [nop,nop,TS val 3366645283 ecr 356623432], length 228
+17:35:59.086180 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [.], ack 1012, win 16, options [nop,nop,TS val 356623450 ecr 3366645283], length 0
+17:35:59.144600 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [P.], seq 2807:3632, ack 1012, win 16, options [nop,nop,TS val 356623497 ecr 3366645283], length 825
+17:35:59.144691 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 3366645359 ecr 356623497], length 0
+17:35:59.147257 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [F.], seq 1012, ack 3632, win 2048, options [nop,nop,TS val 3366645362 ecr 356623497], length 0
+17:35:59.165727 IP 104.18.40.98.443 > 10.44.0.112.57448: Flags [F.], seq 3632, ack 1013, win 16, options [nop,nop,TS val 356623530 ecr 3366645362], length 0
+17:35:59.165813 IP 10.44.0.112.57448 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 3366645380 ecr 356623530], length 0
+17:36:02.216880 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [S], seq 1040506386, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 548020303 ecr 0,sackOK,eol], length 0
+17:36:02.236709 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [S.], seq 2666415987, ack 1040506387, win 65535, options [mss 1400,sackOK,TS val 1493785210 ecr 548020303,nop,wscale 13], length 0
+17:36:02.236848 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 548020323 ecr 1493785210], length 0
+17:36:02.244770 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 548020331 ecr 1493785210], length 192
+17:36:02.261119 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [.], ack 193, win 16, options [nop,nop,TS val 1493785235 ecr 548020331], length 0
+17:36:02.271541 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1493785243 ecr 548020331], length 1448
+17:36:02.271542 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1493785243 ecr 548020331], length 1307
+17:36:02.271620 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 548020358 ecr 1493785243], length 0
+17:36:02.274476 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 548020360 ecr 1493785243], length 93
+17:36:02.289688 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1493785263 ecr 548020360], length 51
+17:36:02.289760 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 548020376 ecr 1493785263], length 0
+17:36:02.290439 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 548020376 ecr 1493785263], length 498
+17:36:02.290522 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [P.], seq 784:1018, ack 2807, win 2048, options [nop,nop,TS val 548020376 ecr 1493785263], length 234
+17:36:02.305321 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [.], ack 1018, win 16, options [nop,nop,TS val 1493785278 ecr 548020376], length 0
+17:36:02.380212 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [P.], seq 2807:3632, ack 1018, win 16, options [nop,nop,TS val 1493785353 ecr 548020376], length 825
+17:36:02.380284 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 548020467 ecr 1493785353], length 0
+17:36:02.382608 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [F.], seq 1018, ack 3632, win 2048, options [nop,nop,TS val 548020469 ecr 1493785353], length 0
+17:36:02.400319 IP 104.18.40.98.443 > 10.44.0.112.57453: Flags [F.], seq 3632, ack 1019, win 16, options [nop,nop,TS val 1493785373 ecr 548020469], length 0
+17:36:02.400433 IP 10.44.0.112.57453 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 548020487 ecr 1493785373], length 0
+17:36:05.461137 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [S], seq 939883716, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1335837801 ecr 0,sackOK,eol], length 0
+17:36:05.485299 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [S.], seq 1278375953, ack 939883717, win 65535, options [mss 1400,sackOK,TS val 3651146080 ecr 1335837801,nop,wscale 13], length 0
+17:36:05.485434 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1335837826 ecr 3651146080], length 0
+17:36:05.495234 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1335837835 ecr 3651146080], length 192
+17:36:05.514346 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [.], ack 193, win 16, options [nop,nop,TS val 3651146106 ecr 1335837835], length 0
+17:36:05.521483 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3651146110 ecr 1335837835], length 1448
+17:36:05.521485 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3651146110 ecr 1335837835], length 1306
+17:36:05.521580 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 1335837862 ecr 3651146110], length 0
+17:36:05.525886 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 1335837865 ecr 3651146110], length 93
+17:36:05.540878 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3651146136 ecr 1335837865], length 51
+17:36:05.541000 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 1335837881 ecr 3651146136], length 0
+17:36:05.541891 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 1335837881 ecr 3651146136], length 498
+17:36:05.541956 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [P.], seq 784:1012, ack 2806, win 2048, options [nop,nop,TS val 1335837882 ecr 3651146136], length 228
+17:36:05.558223 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [.], ack 1012, win 16, options [nop,nop,TS val 3651146153 ecr 1335837881], length 0
+17:36:05.640390 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [P.], seq 2806:3631, ack 1012, win 16, options [nop,nop,TS val 3651146236 ecr 1335837881], length 825
+17:36:05.640495 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 1335837981 ecr 3651146236], length 0
+17:36:05.642762 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [F.], seq 1012, ack 3631, win 2048, options [nop,nop,TS val 1335837983 ecr 3651146236], length 0
+17:36:05.659688 IP 104.18.40.98.443 > 10.44.0.112.57456: Flags [F.], seq 3631, ack 1013, win 16, options [nop,nop,TS val 3651146255 ecr 1335837983], length 0
+17:36:05.659851 IP 10.44.0.112.57456 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 1335838000 ecr 3651146255], length 0
+17:36:08.709325 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [S], seq 2725443131, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2422435421 ecr 0,sackOK,eol], length 0
+17:36:08.732482 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [S.], seq 2284787322, ack 2725443132, win 65535, options [mss 1400,sackOK,TS val 1469618223 ecr 2422435421,nop,wscale 13], length 0
+17:36:08.732616 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2422435445 ecr 1469618223], length 0
+17:36:08.740044 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2422435452 ecr 1469618223], length 192
+17:36:08.758384 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [.], ack 193, win 16, options [nop,nop,TS val 1469618247 ecr 2422435452], length 0
+17:36:08.762153 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1469618251 ecr 2422435452], length 1448
+17:36:08.762155 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 1469618251 ecr 2422435452], length 1305
+17:36:08.762251 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 2422435474 ecr 1469618251], length 0
+17:36:08.765143 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 2422435477 ecr 1469618251], length 93
+17:36:08.784497 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 1469618275 ecr 2422435477], length 51
+17:36:08.784618 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 2422435497 ecr 1469618275], length 0
+17:36:08.785586 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 2422435497 ecr 1469618275], length 498
+17:36:08.785763 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2805, win 2048, options [nop,nop,TS val 2422435498 ecr 1469618275], length 222
+17:36:08.802166 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [.], ack 1006, win 16, options [nop,nop,TS val 1469618293 ecr 2422435497], length 0
+17:36:08.851252 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [P.], seq 2805:3630, ack 1006, win 16, options [nop,nop,TS val 1469618343 ecr 2422435497], length 825
+17:36:08.851372 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 2422435564 ecr 1469618343], length 0
+17:36:08.853645 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3630, win 2048, options [nop,nop,TS val 2422435566 ecr 1469618343], length 0
+17:36:08.872761 IP 104.18.40.98.443 > 10.44.0.112.57459: Flags [F.], seq 3630, ack 1007, win 16, options [nop,nop,TS val 1469618366 ecr 2422435566], length 0
+17:36:08.872872 IP 10.44.0.112.57459 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 2422435585 ecr 1469618366], length 0
+17:36:11.981574 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [S], seq 2391834443, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3899693093 ecr 0,sackOK,eol], length 0
+17:36:12.003130 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [S.], seq 1669857259, ack 2391834444, win 65535, options [mss 1400,sackOK,TS val 981338372 ecr 3899693093,nop,wscale 13], length 0
+17:36:12.003261 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3899693115 ecr 981338372], length 0
+17:36:12.008836 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3899693121 ecr 981338372], length 192
+17:36:12.033463 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [.], ack 193, win 16, options [nop,nop,TS val 981338400 ecr 3899693121], length 0
+17:36:12.033464 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 981338403 ecr 3899693121], length 1448
+17:36:12.033529 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 3899693146 ecr 981338403], length 0
+17:36:12.033686 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 981338403 ecr 3899693121], length 1307
+17:36:12.033723 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [.], ack 2756, win 2027, options [nop,nop,TS val 3899693146 ecr 981338403], length 0
+17:36:12.036110 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 3899693148 ecr 981338403], length 93
+17:36:12.059951 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 981338426 ecr 3899693148], length 51
+17:36:12.060080 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 3899693172 ecr 981338426], length 0
+17:36:12.060642 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 3899693172 ecr 981338426], length 498
+17:36:12.060675 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [P.], seq 784:1028, ack 2807, win 2048, options [nop,nop,TS val 3899693172 ecr 981338426], length 244
+17:36:12.086282 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [.], ack 1028, win 16, options [nop,nop,TS val 981338452 ecr 3899693172], length 0
+17:36:12.120786 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [P.], seq 2807:3632, ack 1028, win 16, options [nop,nop,TS val 981338491 ecr 3899693172], length 825
+17:36:12.120881 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 3899693233 ecr 981338491], length 0
+17:36:12.122250 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [F.], seq 1028, ack 3632, win 2048, options [nop,nop,TS val 3899693234 ecr 981338491], length 0
+17:36:12.141769 IP 104.18.40.98.443 > 10.44.0.112.57462: Flags [F.], seq 3632, ack 1029, win 16, options [nop,nop,TS val 981338515 ecr 3899693234], length 0
+17:36:12.141932 IP 10.44.0.112.57462 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 3899693254 ecr 981338515], length 0
+17:36:15.189283 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [S], seq 718461877, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2982839199 ecr 0,sackOK,eol], length 0
+17:36:15.233518 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [S.], seq 1834143061, ack 718461878, win 65535, options [mss 1400,sackOK,TS val 927722216 ecr 2982839199,nop,wscale 13], length 0
+17:36:15.233660 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2982839244 ecr 927722216], length 0
+17:36:15.243226 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2982839253 ecr 927722216], length 192
+17:36:15.260201 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [.], ack 193, win 16, options [nop,nop,TS val 927722266 ecr 2982839253], length 0
+17:36:15.265558 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 927722271 ecr 2982839253], length 1448
+17:36:15.265560 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 927722271 ecr 2982839253], length 1306
+17:36:15.265642 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 2982839276 ecr 927722271], length 0
+17:36:15.268448 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 2982839278 ecr 927722271], length 93
+17:36:15.284986 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 927722292 ecr 2982839278], length 51
+17:36:15.285088 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 2982839295 ecr 927722292], length 0
+17:36:15.285881 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 2982839295 ecr 927722292], length 498
+17:36:15.286006 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [P.], seq 784:1029, ack 2806, win 2048, options [nop,nop,TS val 2982839295 ecr 927722292], length 245
+17:36:15.300278 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [.], ack 1029, win 16, options [nop,nop,TS val 927722306 ecr 2982839295], length 0
+17:36:15.351605 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [P.], seq 2806:3631, ack 1029, win 16, options [nop,nop,TS val 927722358 ecr 2982839295], length 825
+17:36:15.351700 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 2982839362 ecr 927722358], length 0
+17:36:15.354429 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [F.], seq 1029, ack 3631, win 2048, options [nop,nop,TS val 2982839365 ecr 927722358], length 0
+17:36:15.372315 IP 104.18.40.98.443 > 10.44.0.112.57463: Flags [F.], seq 3631, ack 1030, win 16, options [nop,nop,TS val 927722379 ecr 2982839365], length 0
+17:36:15.372477 IP 10.44.0.112.57463 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 2982839383 ecr 927722379], length 0
+17:36:18.431693 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [S], seq 2849767374, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 422638263 ecr 0,sackOK,eol], length 0
+17:36:18.450407 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [S.], seq 883368472, ack 2849767375, win 65535, options [mss 1400,sackOK,TS val 1256902702 ecr 422638263,nop,wscale 13], length 0
+17:36:18.450546 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 422638282 ecr 1256902702], length 0
+17:36:18.460131 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 422638291 ecr 1256902702], length 192
+17:36:18.473493 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [.], ack 193, win 16, options [nop,nop,TS val 1256902726 ecr 422638291], length 0
+17:36:18.479118 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1256902729 ecr 422638291], length 1448
+17:36:18.479120 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 1256902729 ecr 422638291], length 1305
+17:36:18.479220 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 422638310 ecr 1256902729], length 0
+17:36:18.482720 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 422638313 ecr 1256902729], length 93
+17:36:18.500325 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 1256902749 ecr 422638313], length 51
+17:36:18.500446 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 422638332 ecr 1256902749], length 0
+17:36:18.501514 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 422638333 ecr 1256902749], length 498
+17:36:18.501674 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [P.], seq 784:1023, ack 2805, win 2048, options [nop,nop,TS val 422638333 ecr 1256902749], length 239
+17:36:18.525504 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [.], ack 1023, win 16, options [nop,nop,TS val 1256902777 ecr 422638333], length 0
+17:36:18.596095 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [P.], seq 2805:3630, ack 1023, win 16, options [nop,nop,TS val 1256902848 ecr 422638333], length 825
+17:36:18.596214 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 422638427 ecr 1256902848], length 0
+17:36:18.599203 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [F.], seq 1023, ack 3630, win 2048, options [nop,nop,TS val 422638430 ecr 1256902848], length 0
+17:36:18.620542 IP 104.18.40.98.443 > 10.44.0.112.57466: Flags [F.], seq 3630, ack 1024, win 16, options [nop,nop,TS val 1256902872 ecr 422638430], length 0
+17:36:18.620681 IP 10.44.0.112.57466 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 422638452 ecr 1256902872], length 0
+17:36:21.674102 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [S], seq 2121307677, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 4073756369 ecr 0,sackOK,eol], length 0
+17:36:21.706749 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [S.], seq 1028609422, ack 2121307678, win 65535, options [mss 1400,sackOK,TS val 3083730098 ecr 4073756369,nop,wscale 13], length 0
+17:36:21.706868 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 4073756402 ecr 3083730098], length 0
+17:36:21.715921 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 4073756411 ecr 3083730098], length 192
+17:36:21.731342 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [.], ack 193, win 16, options [nop,nop,TS val 3083730136 ecr 4073756411], length 0
+17:36:21.736774 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3083730140 ecr 4073756411], length 1448
+17:36:21.736872 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 4073756432 ecr 3083730140], length 0
+17:36:21.738968 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3083730140 ecr 4073756411], length 1306
+17:36:21.739063 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 4073756434 ecr 3083730140], length 0
+17:36:21.742820 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 4073756437 ecr 3083730140], length 93
+17:36:21.769611 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3083730170 ecr 4073756437], length 51
+17:36:21.769719 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 4073756465 ecr 3083730170], length 0
+17:36:21.771456 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 4073756467 ecr 3083730170], length 498
+17:36:21.771617 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [P.], seq 784:1018, ack 2806, win 2048, options [nop,nop,TS val 4073756467 ecr 3083730170], length 234
+17:36:21.793567 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [.], ack 1018, win 16, options [nop,nop,TS val 3083730197 ecr 4073756467], length 0
+17:36:21.837316 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [P.], seq 2806:3631, ack 1018, win 16, options [nop,nop,TS val 3083730239 ecr 4073756467], length 825
+17:36:21.837434 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 4073756533 ecr 3083730239], length 0
+17:36:21.842142 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [F.], seq 1018, ack 3631, win 2048, options [nop,nop,TS val 4073756537 ecr 3083730239], length 0
+17:36:21.865816 IP 104.18.40.98.443 > 10.44.0.112.57469: Flags [F.], seq 3631, ack 1019, win 16, options [nop,nop,TS val 3083730269 ecr 4073756537], length 0
+17:36:21.865958 IP 10.44.0.112.57469 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 4073756561 ecr 3083730269], length 0
+17:36:24.924893 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [S], seq 2619942703, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 305824413 ecr 0,sackOK,eol], length 0
+17:36:24.955989 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [S.], seq 4260366426, ack 2619942704, win 65535, options [mss 1400,sackOK,TS val 3336977935 ecr 305824413,nop,wscale 13], length 0
+17:36:24.956114 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 305824444 ecr 3336977935], length 0
+17:36:24.963498 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 305824452 ecr 3336977935], length 192
+17:36:24.980187 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [.], ack 193, win 16, options [nop,nop,TS val 3336977966 ecr 305824452], length 0
+17:36:24.985357 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3336977971 ecr 305824452], length 1448
+17:36:24.985430 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 305824474 ecr 3336977971], length 0
+17:36:24.986131 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3336977971 ecr 305824452], length 1306
+17:36:24.986172 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 305824474 ecr 3336977971], length 0
+17:36:24.988709 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 305824476 ecr 3336977971], length 93
+17:36:25.004013 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3336977990 ecr 305824476], length 51
+17:36:25.004113 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 305824492 ecr 3336977990], length 0
+17:36:25.004878 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 305824492 ecr 3336977990], length 498
+17:36:25.004987 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [P.], seq 784:1000, ack 2806, win 2048, options [nop,nop,TS val 305824492 ecr 3336977990], length 216
+17:36:25.019983 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [.], ack 1000, win 16, options [nop,nop,TS val 3336978006 ecr 305824492], length 0
+17:36:25.112719 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [P.], seq 2806:3631, ack 1000, win 16, options [nop,nop,TS val 3336978096 ecr 305824492], length 825
+17:36:25.112791 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 305824601 ecr 3336978096], length 0
+17:36:25.115138 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [F.], seq 1000, ack 3631, win 2048, options [nop,nop,TS val 305824603 ecr 3336978096], length 0
+17:36:25.131926 IP 104.18.40.98.443 > 10.44.0.112.57474: Flags [F.], seq 3631, ack 1001, win 16, options [nop,nop,TS val 3336978115 ecr 305824603], length 0
+17:36:25.132092 IP 10.44.0.112.57474 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 305824620 ecr 3336978115], length 0
+17:36:28.188212 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [S], seq 1520561620, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2953593865 ecr 0,sackOK,eol], length 0
+17:36:28.200314 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [S.], seq 1890367671, ack 1520561621, win 65535, options [mss 1400,sackOK,TS val 1880733418 ecr 2953593865,nop,wscale 13], length 0
+17:36:28.200450 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2953593878 ecr 1880733418], length 0
+17:36:28.208464 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2953593886 ecr 1880733418], length 192
+17:36:28.220363 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [.], ack 193, win 16, options [nop,nop,TS val 1880733437 ecr 2953593886], length 0
+17:36:28.220364 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1880733439 ecr 2953593886], length 1448
+17:36:28.220365 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 1880733439 ecr 2953593886], length 1306
+17:36:28.220442 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 2953593898 ecr 1880733439], length 0
+17:36:28.223502 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 2953593900 ecr 1880733439], length 93
+17:36:28.235599 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 1880733453 ecr 2953593900], length 51
+17:36:28.235675 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 2953593913 ecr 1880733453], length 0
+17:36:28.236384 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 2953593913 ecr 1880733453], length 498
+17:36:28.236511 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [P.], seq 784:998, ack 2806, win 2048, options [nop,nop,TS val 2953593913 ecr 1880733453], length 214
+17:36:28.246066 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [.], ack 998, win 16, options [nop,nop,TS val 1880733464 ecr 2953593913], length 0
+17:36:28.286996 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [P.], seq 2806:3631, ack 998, win 16, options [nop,nop,TS val 1880733506 ecr 2953593913], length 825
+17:36:28.287111 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 2953593964 ecr 1880733506], length 0
+17:36:28.289778 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [F.], seq 998, ack 3631, win 2048, options [nop,nop,TS val 2953593967 ecr 1880733506], length 0
+17:36:28.300536 IP 172.64.147.158.443 > 10.44.0.112.57477: Flags [F.], seq 3631, ack 999, win 16, options [nop,nop,TS val 1880733518 ecr 2953593967], length 0
+17:36:28.300688 IP 10.44.0.112.57477 > 172.64.147.158.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 2953593978 ecr 1880733518], length 0
+17:36:31.370407 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [S], seq 4084559233, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 771833357 ecr 0,sackOK,eol], length 0
+17:36:31.377847 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [S.], seq 399074813, ack 4084559234, win 65535, options [mss 1400,sackOK,TS val 3079011555 ecr 771833357,nop,wscale 13], length 0
+17:36:31.377891 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 771833365 ecr 3079011555], length 0
+17:36:31.384592 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 771833372 ecr 3079011555], length 192
+17:36:31.393537 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [.], ack 193, win 16, options [nop,nop,TS val 3079011570 ecr 771833372], length 0
+17:36:31.401992 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3079011573 ecr 771833372], length 1448
+17:36:31.402022 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 771833389 ecr 3079011573], length 0
+17:36:31.408809 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3079011573 ecr 771833372], length 1306
+17:36:31.408823 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 771833396 ecr 3079011573], length 0
+17:36:31.411963 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 771833399 ecr 3079011573], length 93
+17:36:31.420267 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3079011596 ecr 771833399], length 51
+17:36:31.420292 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 771833407 ecr 3079011596], length 0
+17:36:31.420935 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 771833407 ecr 3079011596], length 498
+17:36:31.420990 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [P.], seq 784:1004, ack 2806, win 2048, options [nop,nop,TS val 771833407 ecr 3079011596], length 220
+17:36:31.435571 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [.], ack 1004, win 16, options [nop,nop,TS val 3079011610 ecr 771833407], length 0
+17:36:31.471848 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [P.], seq 2806:3631, ack 1004, win 16, options [nop,nop,TS val 3079011646 ecr 771833407], length 825
+17:36:31.471873 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 771833459 ecr 3079011646], length 0
+17:36:31.473877 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [F.], seq 1004, ack 3631, win 2048, options [nop,nop,TS val 771833461 ecr 3079011646], length 0
+17:36:31.497900 IP 172.64.147.158.443 > 10.44.0.112.57481: Flags [F.], seq 3631, ack 1005, win 16, options [nop,nop,TS val 3079011674 ecr 771833461], length 0
+17:36:31.497965 IP 10.44.0.112.57481 > 172.64.147.158.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 771833485 ecr 3079011674], length 0
+17:36:34.566786 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [S], seq 719414676, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 886038172 ecr 0,sackOK,eol], length 0
+17:36:34.584030 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [S.], seq 2254118172, ack 719414677, win 65535, options [mss 1400,sackOK,TS val 3446123991 ecr 886038172,nop,wscale 13], length 0
+17:36:34.584167 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 886038189 ecr 3446123991], length 0
+17:36:34.594934 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 886038200 ecr 3446123991], length 192
+17:36:34.609619 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [.], ack 193, win 16, options [nop,nop,TS val 3446124018 ecr 886038200], length 0
+17:36:34.613512 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3446124021 ecr 886038200], length 1448
+17:36:34.613514 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 3446124021 ecr 886038200], length 1307
+17:36:34.613607 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 886038219 ecr 3446124021], length 0
+17:36:34.616285 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 886038221 ecr 3446124021], length 93
+17:36:34.625728 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 3446124033 ecr 886038221], length 51
+17:36:34.625836 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 886038231 ecr 3446124033], length 0
+17:36:34.626573 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 886038231 ecr 3446124033], length 498
+17:36:34.626698 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [P.], seq 784:1006, ack 2807, win 2048, options [nop,nop,TS val 886038231 ecr 3446124033], length 222
+17:36:34.636218 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [.], ack 1006, win 16, options [nop,nop,TS val 3446124043 ecr 886038231], length 0
+17:36:34.683541 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [P.], seq 2807:3632, ack 1006, win 16, options [nop,nop,TS val 3446124086 ecr 886038231], length 825
+17:36:34.683654 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 886038289 ecr 3446124086], length 0
+17:36:34.686517 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [F.], seq 1006, ack 3632, win 2048, options [nop,nop,TS val 886038292 ecr 3446124086], length 0
+17:36:34.696037 IP 172.64.147.158.443 > 10.44.0.112.57488: Flags [F.], seq 3632, ack 1007, win 16, options [nop,nop,TS val 3446124103 ecr 886038292], length 0
+17:36:34.696193 IP 10.44.0.112.57488 > 172.64.147.158.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 886038301 ecr 3446124103], length 0
+17:36:56.019159 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, initial, dcid 0f47959e66ce729d, length 1232
+17:36:56.019171 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, initial, dcid 0f47959e66ce729d, length 1232
+17:36:56.019236 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, 0-rtt, dcid 0f47959e66ce729d, length 61
+17:36:56.019349 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, 0-rtt, dcid 0f47959e66ce729d, length 344
+17:36:56.045857 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, initial, scid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 22
+17:36:56.045858 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, initial, scid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 23
+17:36:56.046124 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, initial, scid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 1170
+17:36:56.046126 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, initial, scid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 57, handshake, scid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 232, protected
+17:36:56.046251 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, initial, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 1130, handshake, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321, length 61
+17:36:56.057870 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.057872 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.057873 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.057874 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.057919 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.057932 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.057942 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.068133 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.093196 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.093531 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.292904 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.293680 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.293691 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.318840 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.523099 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.537317 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.584164 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.591278 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.624497 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:56.829888 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:56.899254 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.037902 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.181549 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.269805 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.269806 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.271547 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.271564 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.284508 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.319923 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.319924 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.323291 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.323293 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.323294 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.323362 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.330391 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.352200 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.448450 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.449202 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.449216 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.466639 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.668990 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.691366 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.739389 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.751489 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.751493 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.751797 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.781544 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.891694 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.904836 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.904839 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.904840 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.905175 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.912173 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.935405 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:57.997995 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.997997 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:57.998279 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.114770 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.152661 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.180253 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.187630 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.246313 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.442739 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.443508 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.443528 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.469768 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.675082 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.693108 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.810581 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.810586 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.810587 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.811022 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.841235 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.893716 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:36:58.909309 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.959449 IP 104.18.40.98.443 > 10.44.0.112.59401: quic, protected
+17:36:58.985900 IP 10.44.0.112.59401 > 104.18.40.98.443: quic, protected, dcid 01cd6c9a1975d000fccfc49a6975f3d2a2683321
+17:37:39.506005 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [S], seq 775725374, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1154685945 ecr 0,sackOK,eol], length 0
+17:37:39.521662 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [S.], seq 2049203890, ack 775725375, win 65535, options [mss 1400,sackOK,TS val 1175880578 ecr 1154685945,nop,wscale 13], length 0
+17:37:39.521812 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1154685961 ecr 1175880578], length 0
+17:37:39.533913 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1154685974 ecr 1175880578], length 192
+17:37:39.545669 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [.], ack 193, win 16, options [nop,nop,TS val 1175880605 ecr 1154685974], length 0
+17:37:39.547641 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1175880607 ecr 1154685974], length 1448
+17:37:39.547734 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 1154685987 ecr 1175880607], length 0
+17:37:39.548263 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 1175880607 ecr 1154685974], length 1305
+17:37:39.548454 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [.], ack 2754, win 2027, options [nop,nop,TS val 1154685988 ecr 1175880607], length 0
+17:37:39.551938 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 1154685991 ecr 1175880607], length 93
+17:37:39.560641 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 1175880621 ecr 1154685991], length 51
+17:37:39.560744 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 1154686000 ecr 1175880621], length 0
+17:37:39.561704 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 1154686000 ecr 1175880621], length 498
+17:37:39.561835 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [P.], seq 784:1024, ack 2805, win 2048, options [nop,nop,TS val 1154686002 ecr 1175880621], length 240
+17:37:39.570667 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [.], ack 1024, win 16, options [nop,nop,TS val 1175880631 ecr 1154686000], length 0
+17:37:39.629107 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [P.], seq 2805:3630, ack 1024, win 16, options [nop,nop,TS val 1175880690 ecr 1154686000], length 825
+17:37:39.629199 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 1154686069 ecr 1175880690], length 0
+17:37:39.632255 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [F.], seq 1024, ack 3630, win 2048, options [nop,nop,TS val 1154686072 ecr 1175880690], length 0
+17:37:39.641403 IP 172.64.147.158.443 > 10.44.0.112.57573: Flags [F.], seq 3630, ack 1025, win 16, options [nop,nop,TS val 1175880702 ecr 1154686072], length 0
+17:37:39.641557 IP 10.44.0.112.57573 > 172.64.147.158.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 1154686081 ecr 1175880702], length 0
+17:37:42.707141 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [S], seq 611934310, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1346831773 ecr 0,sackOK,eol], length 0
+17:37:42.768903 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [S.], seq 157831707, ack 611934311, win 65535, options [mss 1400,sackOK,TS val 4206969543 ecr 1346831773,nop,wscale 13], length 0
+17:37:42.769036 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1346831835 ecr 4206969543], length 0
+17:37:42.780087 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1346831846 ecr 4206969543], length 192
+17:37:42.814021 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [.], ack 193, win 16, options [nop,nop,TS val 4206969625 ecr 1346831846], length 0
+17:37:42.829017 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 4206969628 ecr 1346831846], length 1448
+17:37:42.829128 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 1346831895 ecr 4206969628], length 0
+17:37:42.844255 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 4206969628 ecr 1346831846], length 1307
+17:37:42.844362 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [.], ack 2756, win 2027, options [nop,nop,TS val 1346831910 ecr 4206969628], length 0
+17:37:42.850060 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 1346831916 ecr 4206969628], length 93
+17:37:42.897990 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 4206969685 ecr 1346831916], length 51
+17:37:42.898105 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 1346831964 ecr 4206969685], length 0
+17:37:42.899138 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 1346831965 ecr 4206969685], length 498
+17:37:42.899284 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [P.], seq 784:1001, ack 2807, win 2048, options [nop,nop,TS val 1346831965 ecr 4206969685], length 217
+17:37:42.945494 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [.], ack 1001, win 16, options [nop,nop,TS val 4206969730 ecr 1346831965], length 0
+17:37:43.004882 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [P.], seq 2807:3632, ack 1001, win 16, options [nop,nop,TS val 4206969774 ecr 1346831965], length 825
+17:37:43.004995 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 1346832071 ecr 4206969774], length 0
+17:37:43.007874 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [F.], seq 1001, ack 3632, win 2048, options [nop,nop,TS val 1346832074 ecr 4206969774], length 0
+17:37:43.035093 IP 104.18.40.98.443 > 10.44.0.112.57577: Flags [F.], seq 3632, ack 1002, win 16, options [nop,nop,TS val 4206969839 ecr 1346832074], length 0
+17:37:43.035278 IP 10.44.0.112.57577 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 1346832101 ecr 4206969839], length 0
+17:37:46.075466 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [S], seq 2621319782, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3400512443 ecr 0,sackOK,eol], length 0
+17:37:46.096169 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [S.], seq 562163296, ack 2621319783, win 65535, options [mss 1400,sackOK,TS val 3113139861 ecr 3400512443,nop,wscale 13], length 0
+17:37:46.096304 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3400512464 ecr 3113139861], length 0
+17:37:46.105985 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3400512474 ecr 3113139861], length 192
+17:37:46.140405 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [.], ack 193, win 16, options [nop,nop,TS val 3113139901 ecr 3400512474], length 0
+17:37:46.140407 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3113139905 ecr 3400512474], length 1448
+17:37:46.140408 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3113139905 ecr 3400512474], length 1306
+17:37:46.140538 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 3400512508 ecr 3113139905], length 0
+17:37:46.146322 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 3400512514 ecr 3113139905], length 93
+17:37:46.174525 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3113139941 ecr 3400512514], length 51
+17:37:46.174635 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 3400512542 ecr 3113139941], length 0
+17:37:46.175500 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 3400512542 ecr 3113139941], length 498
+17:37:46.175634 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [P.], seq 784:1017, ack 2806, win 2048, options [nop,nop,TS val 3400512543 ecr 3113139941], length 233
+17:37:46.197995 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [.], ack 1017, win 16, options [nop,nop,TS val 3113139960 ecr 3400512542], length 0
+17:37:46.279866 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [P.], seq 2806:3631, ack 1017, win 16, options [nop,nop,TS val 3113140045 ecr 3400512542], length 825
+17:37:46.279969 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 3400512648 ecr 3113140045], length 0
+17:37:46.281230 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [F.], seq 1017, ack 3631, win 2048, options [nop,nop,TS val 3400512649 ecr 3113140045], length 0
+17:37:46.302439 IP 104.18.40.98.443 > 10.44.0.112.57580: Flags [F.], seq 3631, ack 1018, win 16, options [nop,nop,TS val 3113140068 ecr 3400512649], length 0
+17:37:46.302593 IP 10.44.0.112.57580 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 3400512670 ecr 3113140068], length 0
+17:37:49.364021 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [S], seq 107168448, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1867365364 ecr 0,sackOK,eol], length 0
+17:37:49.394562 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [S.], seq 4227821863, ack 107168449, win 65535, options [mss 1400,sackOK,TS val 981435769 ecr 1867365364,nop,wscale 13], length 0
+17:37:49.394687 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1867365395 ecr 981435769], length 0
+17:37:49.404776 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1867365405 ecr 981435769], length 192
+17:37:49.442377 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [.], ack 193, win 16, options [nop,nop,TS val 981435811 ecr 1867365405], length 0
+17:37:49.442379 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 981435813 ecr 1867365405], length 1448
+17:37:49.442381 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 981435813 ecr 1867365405], length 1306
+17:37:49.442538 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 1867365443 ecr 981435813], length 0
+17:37:49.446162 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 1867365446 ecr 981435813], length 93
+17:37:49.464627 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 981435839 ecr 1867365446], length 51
+17:37:49.464739 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 1867365465 ecr 981435839], length 0
+17:37:49.465852 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 1867365466 ecr 981435839], length 498
+17:37:49.466028 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2806, win 2048, options [nop,nop,TS val 1867365466 ecr 981435839], length 222
+17:37:49.486522 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [.], ack 1006, win 16, options [nop,nop,TS val 981435860 ecr 1867365466], length 0
+17:37:49.565826 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [P.], seq 2806:3631, ack 1006, win 16, options [nop,nop,TS val 981435912 ecr 1867365466], length 825
+17:37:49.565944 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 1867365567 ecr 981435912], length 0
+17:37:49.569115 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3631, win 2048, options [nop,nop,TS val 1867365570 ecr 981435912], length 0
+17:37:49.599515 IP 104.18.40.98.443 > 10.44.0.112.57582: Flags [F.], seq 3631, ack 1007, win 16, options [nop,nop,TS val 981435973 ecr 1867365570], length 0
+17:37:49.599705 IP 10.44.0.112.57582 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 1867365600 ecr 981435973], length 0
+17:37:52.643112 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [S], seq 3759618329, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 458950197 ecr 0,sackOK,eol], length 0
+17:37:52.670284 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [S.], seq 1748128900, ack 3759618330, win 65535, options [mss 1400,sackOK,TS val 540799177 ecr 458950197,nop,wscale 13], length 0
+17:37:52.670411 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 458950225 ecr 540799177], length 0
+17:37:52.679864 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 458950234 ecr 540799177], length 192
+17:37:52.695193 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [.], ack 193, win 16, options [nop,nop,TS val 540799202 ecr 458950234], length 0
+17:37:52.702882 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 540799205 ecr 458950234], length 1448
+17:37:52.702885 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 540799205 ecr 458950234], length 1307
+17:37:52.702991 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 458950258 ecr 540799205], length 0
+17:37:52.707872 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 458950262 ecr 540799205], length 93
+17:37:52.728989 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 540799233 ecr 458950262], length 51
+17:37:52.729095 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 458950284 ecr 540799233], length 0
+17:37:52.730040 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 458950284 ecr 540799233], length 498
+17:37:52.730125 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [P.], seq 784:1012, ack 2807, win 2048, options [nop,nop,TS val 458950285 ecr 540799233], length 228
+17:37:52.745617 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [.], ack 1012, win 16, options [nop,nop,TS val 540799252 ecr 458950284], length 0
+17:37:52.781938 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [P.], seq 2807:3632, ack 1012, win 16, options [nop,nop,TS val 540799288 ecr 458950284], length 825
+17:37:52.781986 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 458950337 ecr 540799288], length 0
+17:37:52.784401 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [F.], seq 1012, ack 3632, win 2048, options [nop,nop,TS val 458950339 ecr 540799288], length 0
+17:37:52.802793 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [.], ack 1013, win 16, options [nop,nop,TS val 540799307 ecr 458950339], length 0
+17:37:52.802794 IP 104.18.40.98.443 > 10.44.0.112.57587: Flags [F.], seq 3632, ack 1013, win 16, options [nop,nop,TS val 540799306 ecr 458950339], length 0
+17:37:52.803016 IP 10.44.0.112.57587 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 458950357 ecr 540799306], length 0
+17:37:55.853205 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [S], seq 3278969185, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 921172602 ecr 0,sackOK,eol], length 0
+17:37:55.868734 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [S.], seq 3347047646, ack 3278969186, win 65535, options [mss 1400,sackOK,TS val 3274885351 ecr 921172602,nop,wscale 13], length 0
+17:37:55.868871 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 921172617 ecr 3274885351], length 0
+17:37:55.877507 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 921172626 ecr 3274885351], length 192
+17:37:55.917299 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [.], ack 193, win 16, options [nop,nop,TS val 3274885400 ecr 921172626], length 0
+17:37:55.923049 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3274885403 ecr 921172626], length 1448
+17:37:55.923051 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3274885403 ecr 921172626], length 1306
+17:37:55.923152 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 921172672 ecr 3274885403], length 0
+17:37:55.927437 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 921172675 ecr 3274885403], length 93
+17:37:55.941836 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3274885424 ecr 921172675], length 51
+17:37:55.941951 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 921172690 ecr 3274885424], length 0
+17:37:55.943062 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 921172692 ecr 3274885424], length 498
+17:37:55.943209 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [P.], seq 784:1018, ack 2806, win 2048, options [nop,nop,TS val 921172692 ecr 3274885424], length 234
+17:37:55.958852 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [.], ack 1018, win 16, options [nop,nop,TS val 3274885441 ecr 921172692], length 0
+17:37:56.003686 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [P.], seq 2806:3631, ack 1018, win 16, options [nop,nop,TS val 3274885479 ecr 921172692], length 825
+17:37:56.003806 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 921172752 ecr 3274885479], length 0
+17:37:56.006961 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [F.], seq 1018, ack 3631, win 2048, options [nop,nop,TS val 921172756 ecr 3274885479], length 0
+17:37:56.033218 IP 104.18.40.98.443 > 10.44.0.112.57590: Flags [F.], seq 3631, ack 1019, win 16, options [nop,nop,TS val 3274885505 ecr 921172756], length 0
+17:37:56.033405 IP 10.44.0.112.57590 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 921172782 ecr 3274885505], length 0
+17:37:56.112335 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, initial, dcid 5596e75f4eb152fd, length 1232
+17:37:56.112345 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, initial, dcid 5596e75f4eb152fd, length 1232
+17:37:56.112406 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, 0-rtt, dcid 5596e75f4eb152fd, length 62
+17:37:56.112505 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, 0-rtt, dcid 5596e75f4eb152fd, length 344
+17:37:56.130118 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, initial, scid 012c61792063d8845a2d6d796863d7c882b28d6d, length 22
+17:37:56.130120 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, initial, scid 012c61792063d8845a2d6d796863d7c882b28d6d, length 23
+17:37:56.130368 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, initial, scid 012c61792063d8845a2d6d796863d7c882b28d6d, length 1170
+17:37:56.130369 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, initial, scid 012c61792063d8845a2d6d796863d7c882b28d6d, length 57, handshake, scid 012c61792063d8845a2d6d796863d7c882b28d6d, length 232, protected
+17:37:56.130547 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, initial, dcid 012c61792063d8845a2d6d796863d7c882b28d6d, length 1130, handshake, dcid 012c61792063d8845a2d6d796863d7c882b28d6d, length 61
+17:37:56.142052 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.142052 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.142053 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.142054 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.142134 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.142153 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.142164 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.155352 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.181280 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.194843 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.222946 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.360405 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.368378 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.410555 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.411213 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.411226 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.436184 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.436185 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.636670 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.645580 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.679283 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.686639 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.696102 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.897716 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.918728 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.932754 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.934712 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.934804 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:56.950426 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:56.953236 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.059006 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.067847 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.273047 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.281114 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.324185 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.326040 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.326193 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.339288 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.339291 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.361917 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.361920 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.362199 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.395343 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.425353 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.543915 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.554911 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.759474 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.768394 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.806931 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.806941 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:57.807375 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:57.973060 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.001417 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.001420 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.001586 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.005480 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.015276 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.015279 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.015280 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.015379 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.218932 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.230249 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.266304 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.268092 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.268169 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.284726 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.489692 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.496309 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.698024 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.705816 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.705820 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.706128 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:58.707115 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.735233 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.735237 IP 172.64.147.158.443 > 10.44.0.112.59875: quic, protected
+17:37:58.735451 IP 10.44.0.112.59875 > 172.64.147.158.443: quic, protected, dcid 012c61792063d8845a2d6d796863d7c882b28d6d
+17:37:59.084314 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [S], seq 1126522261, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3092255075 ecr 0,sackOK,eol], length 0
+17:37:59.105624 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [S.], seq 2907367541, ack 1126522262, win 65535, options [mss 1400,sackOK,TS val 3719232327 ecr 3092255075,nop,wscale 13], length 0
+17:37:59.105720 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3092255096 ecr 3719232327], length 0
+17:37:59.115106 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3092255106 ecr 3719232327], length 192
+17:37:59.136157 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [.], ack 193, win 16, options [nop,nop,TS val 3719232357 ecr 3092255106], length 0
+17:37:59.137883 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3719232362 ecr 3092255106], length 1448
+17:37:59.137885 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 3719232362 ecr 3092255106], length 1305
+17:37:59.137948 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 3092255129 ecr 3719232362], length 0
+17:37:59.143486 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 3092255134 ecr 3719232362], length 93
+17:37:59.167946 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 3719232387 ecr 3092255134], length 51
+17:37:59.167999 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 3092255159 ecr 3719232387], length 0
+17:37:59.168660 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 3092255159 ecr 3719232387], length 498
+17:37:59.168753 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [P.], seq 784:1012, ack 2805, win 2048, options [nop,nop,TS val 3092255159 ecr 3719232387], length 228
+17:37:59.194746 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [.], ack 1012, win 16, options [nop,nop,TS val 3719232421 ecr 3092255159], length 0
+17:37:59.332112 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [P.], seq 2805:3630, ack 1012, win 16, options [nop,nop,TS val 3719232508 ecr 3092255159], length 825
+17:37:59.332211 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 3092255323 ecr 3719232508], length 0
+17:37:59.334507 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [F.], seq 1012, ack 3630, win 2048, options [nop,nop,TS val 3092255325 ecr 3719232508], length 0
+17:37:59.371272 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [.], ack 1013, win 16, options [nop,nop,TS val 3719232579 ecr 3092255325], length 0
+17:37:59.371273 IP 104.18.40.98.443 > 10.44.0.112.57601: Flags [F.], seq 3630, ack 1013, win 16, options [nop,nop,TS val 3719232578 ecr 3092255325], length 0
+17:37:59.371426 IP 10.44.0.112.57601 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 3092255362 ecr 3719232578], length 0
+17:38:02.407411 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [S], seq 1918120031, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3128977545 ecr 0,sackOK,eol], length 0
+17:38:02.435332 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [S.], seq 162242690, ack 1918120032, win 65535, options [mss 1400,sackOK,TS val 2560963724 ecr 3128977545,nop,wscale 13], length 0
+17:38:02.435475 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3128977573 ecr 2560963724], length 0
+17:38:02.446887 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3128977584 ecr 2560963724], length 192
+17:38:02.461209 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [.], ack 193, win 16, options [nop,nop,TS val 2560963754 ecr 3128977584], length 0
+17:38:02.463629 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 2560963756 ecr 3128977584], length 1448
+17:38:02.463633 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 2560963756 ecr 3128977584], length 1306
+17:38:02.463762 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 3128977601 ecr 2560963756], length 0
+17:38:02.466912 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 3128977604 ecr 2560963756], length 93
+17:38:02.491827 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 2560963778 ecr 3128977604], length 51
+17:38:02.491959 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 3128977629 ecr 2560963778], length 0
+17:38:02.493147 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 3128977631 ecr 2560963778], length 498
+17:38:02.493309 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2806, win 2048, options [nop,nop,TS val 3128977631 ecr 2560963778], length 222
+17:38:02.508614 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [.], ack 1006, win 16, options [nop,nop,TS val 2560963802 ecr 3128977631], length 0
+17:38:02.592277 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [P.], seq 2806:3631, ack 1006, win 16, options [nop,nop,TS val 2560963885 ecr 3128977631], length 825
+17:38:02.592362 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 3128977730 ecr 2560963885], length 0
+17:38:02.594343 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3631, win 2048, options [nop,nop,TS val 3128977732 ecr 2560963885], length 0
+17:38:02.613879 IP 104.18.40.98.443 > 10.44.0.112.57607: Flags [F.], seq 3631, ack 1007, win 16, options [nop,nop,TS val 2560963907 ecr 3128977732], length 0
+17:38:02.613975 IP 10.44.0.112.57607 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 3128977751 ecr 2560963907], length 0
+17:38:05.661670 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [S], seq 623264016, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 4014801119 ecr 0,sackOK,eol], length 0
+17:38:05.677117 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [S.], seq 2928118156, ack 623264017, win 65535, options [mss 1400,sackOK,TS val 240623010 ecr 4014801119,nop,wscale 13], length 0
+17:38:05.677260 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 4014801135 ecr 240623010], length 0
+17:38:05.685210 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 4014801143 ecr 240623010], length 192
+17:38:05.699318 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [.], ack 193, win 16, options [nop,nop,TS val 240623032 ecr 4014801143], length 0
+17:38:05.706390 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 240623036 ecr 4014801143], length 1448
+17:38:05.706505 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 4014801164 ecr 240623036], length 0
+17:38:05.707479 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 240623036 ecr 4014801143], length 1307
+17:38:05.707570 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [.], ack 2756, win 2027, options [nop,nop,TS val 4014801165 ecr 240623036], length 0
+17:38:05.710121 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 4014801167 ecr 240623036], length 93
+17:38:05.742325 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 240623062 ecr 4014801167], length 51
+17:38:05.742441 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 4014801200 ecr 240623062], length 0
+17:38:05.743419 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 4014801201 ecr 240623062], length 498
+17:38:05.743570 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [P.], seq 784:1028, ack 2807, win 2048, options [nop,nop,TS val 4014801201 ecr 240623062], length 244
+17:38:05.758318 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [.], ack 1028, win 16, options [nop,nop,TS val 240623091 ecr 4014801201], length 0
+17:38:05.808756 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [P.], seq 2807:3632, ack 1028, win 16, options [nop,nop,TS val 240623140 ecr 4014801201], length 825
+17:38:05.808838 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 4014801266 ecr 240623140], length 0
+17:38:05.811365 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [F.], seq 1028, ack 3632, win 2048, options [nop,nop,TS val 4014801269 ecr 240623140], length 0
+17:38:05.829482 IP 104.18.40.98.443 > 10.44.0.112.57611: Flags [F.], seq 3632, ack 1029, win 16, options [nop,nop,TS val 240623162 ecr 4014801269], length 0
+17:38:05.829648 IP 10.44.0.112.57611 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 4014801287 ecr 240623162], length 0
+17:38:08.891798 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [S], seq 606528716, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 394913770 ecr 0,sackOK,eol], length 0
+17:38:08.914930 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [S.], seq 1076735052, ack 606528717, win 65535, options [mss 1400,sackOK,TS val 700755991 ecr 394913770,nop,wscale 13], length 0
+17:38:08.915069 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 394913794 ecr 700755991], length 0
+17:38:08.925113 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 394913804 ecr 700755991], length 192
+17:38:08.939913 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [.], ack 193, win 16, options [nop,nop,TS val 700756016 ecr 394913804], length 0
+17:38:08.943568 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 700756020 ecr 394913804], length 1448
+17:38:08.943569 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 700756020 ecr 394913804], length 1306
+17:38:08.943630 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 394913822 ecr 700756020], length 0
+17:38:08.949092 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 394913828 ecr 700756020], length 93
+17:38:08.964269 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 700756041 ecr 394913828], length 51
+17:38:08.964373 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 394913843 ecr 700756041], length 0
+17:38:08.965363 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 394913844 ecr 700756041], length 498
+17:38:08.965487 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [P.], seq 784:1029, ack 2806, win 2048, options [nop,nop,TS val 394913844 ecr 700756041], length 245
+17:38:08.994861 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [.], ack 1029, win 16, options [nop,nop,TS val 700756060 ecr 394913844], length 0
+17:38:09.073812 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [P.], seq 2806:3631, ack 1029, win 16, options [nop,nop,TS val 700756149 ecr 394913844], length 825
+17:38:09.073924 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 394913952 ecr 700756149], length 0
+17:38:09.076357 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [F.], seq 1029, ack 3631, win 2048, options [nop,nop,TS val 394913955 ecr 700756149], length 0
+17:38:09.099905 IP 104.18.40.98.443 > 10.44.0.112.57615: Flags [F.], seq 3631, ack 1030, win 16, options [nop,nop,TS val 700756170 ecr 394913955], length 0
+17:38:09.100024 IP 10.44.0.112.57615 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 394913978 ecr 700756170], length 0
+17:38:12.167254 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [S], seq 296549587, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1867782376 ecr 0,sackOK,eol], length 0
+17:38:12.209835 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [S.], seq 1175830527, ack 296549588, win 65535, options [mss 1400,sackOK,TS val 2198694246 ecr 1867782376,nop,wscale 13], length 0
+17:38:12.209969 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1867782418 ecr 2198694246], length 0
+17:38:12.221460 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1867782430 ecr 2198694246], length 192
+17:38:12.274724 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [.], ack 193, win 16, options [nop,nop,TS val 2198694278 ecr 1867782430], length 0
+17:38:12.277777 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 2198694282 ecr 1867782430], length 1448
+17:38:12.277779 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 2198694282 ecr 1867782430], length 1307
+17:38:12.277838 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 1867782486 ecr 2198694282], length 0
+17:38:12.283397 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 1867782492 ecr 2198694282], length 93
+17:38:12.316177 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 2198694325 ecr 1867782430], length 1307
+17:38:12.316280 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [.], ack 2756, win 2048, options [nop,nop,TS val 1867782525 ecr 2198694325,nop,nop,sack 1 {1449:2756}], length 0
+17:38:12.329912 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 2198694346 ecr 1867782492], length 51
+17:38:12.330003 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 1867782538 ecr 2198694346], length 0
+17:38:12.330755 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 1867782538 ecr 2198694346], length 498
+17:38:12.330878 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [P.], seq 784:1023, ack 2807, win 2048, options [nop,nop,TS val 1867782538 ecr 2198694346], length 239
+17:38:12.369764 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [.], ack 1023, win 16, options [nop,nop,TS val 2198694390 ecr 1867782538], length 0
+17:38:12.431002 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [P.], seq 2807:3632, ack 1023, win 16, options [nop,nop,TS val 2198694435 ecr 1867782538], length 825
+17:38:12.431312 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 1867782640 ecr 2198694435], length 0
+17:38:12.433416 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [F.], seq 1023, ack 3632, win 2048, options [nop,nop,TS val 1867782642 ecr 2198694435], length 0
+17:38:12.481895 IP 104.18.40.98.443 > 10.44.0.112.57621: Flags [F.], seq 3632, ack 1024, win 16, options [nop,nop,TS val 2198694490 ecr 1867782642], length 0
+17:38:12.482061 IP 10.44.0.112.57621 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 1867782690 ecr 2198694490], length 0
+17:38:15.496843 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [S], seq 2303130443, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2361906817 ecr 0,sackOK,eol], length 0
+17:38:15.519910 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [S.], seq 2602625152, ack 2303130444, win 65535, options [mss 1400,sackOK,TS val 1953302558 ecr 2361906817,nop,wscale 13], length 0
+17:38:15.519990 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2361906840 ecr 1953302558], length 0
+17:38:15.527302 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2361906848 ecr 1953302558], length 192
+17:38:15.548135 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [.], ack 193, win 16, options [nop,nop,TS val 1953302583 ecr 2361906848], length 0
+17:38:15.557334 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1953302588 ecr 2361906848], length 1448
+17:38:15.557335 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 1953302588 ecr 2361906848], length 1305
+17:38:15.557386 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 2361906878 ecr 1953302588], length 0
+17:38:15.561839 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 2361906882 ecr 1953302588], length 93
+17:38:15.578153 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 1953302618 ecr 2361906882], length 51
+17:38:15.578267 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 2361906899 ecr 1953302618], length 0
+17:38:15.579357 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 2361906900 ecr 1953302618], length 498
+17:38:15.579482 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [P.], seq 784:1018, ack 2805, win 2048, options [nop,nop,TS val 2361906900 ecr 1953302618], length 234
+17:38:15.594977 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [.], ack 1018, win 16, options [nop,nop,TS val 1953302634 ecr 2361906900], length 0
+17:38:15.597321 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [.], ack 1018, win 16, options [nop,nop,TS val 1953302635 ecr 2361906900], length 0
+17:38:15.646497 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [P.], seq 2805:3630, ack 1018, win 16, options [nop,nop,TS val 1953302678 ecr 2361906900], length 825
+17:38:15.646562 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 2361906967 ecr 1953302678], length 0
+17:38:15.648781 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [F.], seq 1018, ack 3630, win 2048, options [nop,nop,TS val 2361906969 ecr 1953302678], length 0
+17:38:15.668991 IP 104.18.40.98.443 > 10.44.0.112.57622: Flags [F.], seq 3630, ack 1019, win 16, options [nop,nop,TS val 1953302706 ecr 2361906969], length 0
+17:38:15.669110 IP 10.44.0.112.57622 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 2361906990 ecr 1953302706], length 0
+17:38:18.723600 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [S], seq 3260860124, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2995716269 ecr 0,sackOK,eol], length 0
+17:38:18.740238 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [S.], seq 2285764868, ack 3260860125, win 65535, options [mss 1400,sackOK,TS val 1066398432 ecr 2995716269,nop,wscale 13], length 0
+17:38:18.740379 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2995716286 ecr 1066398432], length 0
+17:38:18.747140 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2995716293 ecr 1066398432], length 192
+17:38:18.780024 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [.], ack 193, win 16, options [nop,nop,TS val 1066398460 ecr 2995716293], length 0
+17:38:18.780325 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1066398462 ecr 2995716293], length 1448
+17:38:18.780406 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 2995716326 ecr 1066398462], length 0
+17:38:18.780952 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 1066398462 ecr 2995716293], length 1306
+17:38:18.781066 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 2995716326 ecr 1066398462], length 0
+17:38:18.786026 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 2995716331 ecr 1066398462], length 93
+17:38:18.806100 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 1066398495 ecr 2995716331], length 51
+17:38:18.806219 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 2995716352 ecr 1066398495], length 0
+17:38:18.807392 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 2995716353 ecr 1066398495], length 498
+17:38:18.807566 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [P.], seq 784:1000, ack 2806, win 2048, options [nop,nop,TS val 2995716353 ecr 1066398495], length 216
+17:38:18.828266 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [.], ack 1000, win 16, options [nop,nop,TS val 1066398517 ecr 2995716353], length 0
+17:38:18.883309 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [P.], seq 2806:3631, ack 1000, win 16, options [nop,nop,TS val 1066398567 ecr 2995716353], length 825
+17:38:18.883407 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 2995716428 ecr 1066398567], length 0
+17:38:18.885925 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [F.], seq 1000, ack 3631, win 2048, options [nop,nop,TS val 2995716431 ecr 1066398567], length 0
+17:38:18.904864 IP 104.18.40.98.443 > 10.44.0.112.57626: Flags [F.], seq 3631, ack 1001, win 16, options [nop,nop,TS val 1066398594 ecr 2995716431], length 0
+17:38:18.905036 IP 10.44.0.112.57626 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 2995716450 ecr 1066398594], length 0
+17:38:21.971497 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [S], seq 279588189, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1035914694 ecr 0,sackOK,eol], length 0
+17:38:21.989548 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [S.], seq 425231918, ack 279588190, win 65535, options [mss 1400,sackOK,TS val 1940471467 ecr 1035914694,nop,wscale 13], length 0
+17:38:21.989723 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1035914712 ecr 1940471467], length 0
+17:38:21.995560 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1035914718 ecr 1940471467], length 192
+17:38:22.109814 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [.], ack 193, win 16, options [nop,nop,TS val 1940471585 ecr 1035914718], length 0
+17:38:22.120638 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1940471590 ecr 1035914718], length 1448
+17:38:22.120639 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 1940471590 ecr 1035914718], length 1306
+17:38:22.120724 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 1035914843 ecr 1940471590], length 0
+17:38:22.125225 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 1035914847 ecr 1940471590], length 93
+17:38:22.142542 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 1940471619 ecr 1035914847], length 51
+17:38:22.142627 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 1035914865 ecr 1940471619], length 0
+17:38:22.143618 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 1035914866 ecr 1940471619], length 498
+17:38:22.143706 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [P.], seq 784:998, ack 2806, win 2048, options [nop,nop,TS val 1035914866 ecr 1940471619], length 214
+17:38:22.163140 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [.], ack 998, win 16, options [nop,nop,TS val 1940471640 ecr 1035914866], length 0
+17:38:22.205990 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [P.], seq 2806:3631, ack 998, win 16, options [nop,nop,TS val 1940471682 ecr 1035914866], length 825
+17:38:22.206107 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 1035914929 ecr 1940471682], length 0
+17:38:22.209071 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [F.], seq 998, ack 3631, win 2048, options [nop,nop,TS val 1035914931 ecr 1940471682], length 0
+17:38:22.224043 IP 104.18.40.98.443 > 10.44.0.112.57630: Flags [F.], seq 3631, ack 999, win 16, options [nop,nop,TS val 1940471702 ecr 1035914931], length 0
+17:38:22.224200 IP 10.44.0.112.57630 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 1035914947 ecr 1940471702], length 0
+17:38:25.296166 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [S], seq 1302964132, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1860710793 ecr 0,sackOK,eol], length 0
+17:38:25.312622 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [S.], seq 1435743960, ack 1302964133, win 65535, options [mss 1400,sackOK,TS val 4155923019 ecr 1860710793,nop,wscale 13], length 0
+17:38:25.312680 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1860710809 ecr 4155923019], length 0
+17:38:25.319283 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1860710816 ecr 4155923019], length 192
+17:38:25.333631 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [.], ack 193, win 16, options [nop,nop,TS val 4155923040 ecr 1860710816], length 0
+17:38:25.337890 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 4155923043 ecr 1860710816], length 1448
+17:38:25.337973 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 1860710834 ecr 4155923043], length 0
+17:38:25.341989 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 4155923043 ecr 1860710816], length 1306
+17:38:25.342092 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 1860710838 ecr 4155923043], length 0
+17:38:25.344761 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 1860710841 ecr 4155923043], length 93
+17:38:25.359098 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 4155923065 ecr 1860710841], length 51
+17:38:25.359169 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 1860710856 ecr 4155923065], length 0
+17:38:25.359913 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 1860710856 ecr 4155923065], length 498
+17:38:25.359955 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [P.], seq 784:1004, ack 2806, win 2048, options [nop,nop,TS val 1860710856 ecr 4155923065], length 220
+17:38:25.380681 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [.], ack 1004, win 16, options [nop,nop,TS val 4155923081 ecr 1860710856], length 0
+17:38:25.456289 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [P.], seq 2806:3631, ack 1004, win 16, options [nop,nop,TS val 4155923162 ecr 1860710856], length 825
+17:38:25.456404 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 1860710953 ecr 4155923162], length 0
+17:38:25.460245 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [F.], seq 1004, ack 3631, win 2048, options [nop,nop,TS val 1860710957 ecr 4155923162], length 0
+17:38:25.480969 IP 104.18.40.98.443 > 10.44.0.112.57632: Flags [F.], seq 3631, ack 1005, win 16, options [nop,nop,TS val 4155923183 ecr 1860710957], length 0
+17:38:25.481163 IP 10.44.0.112.57632 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 1860710977 ecr 4155923183], length 0
+17:38:28.556737 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [S], seq 2169217508, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 319322489 ecr 0,sackOK,eol], length 0
+17:38:28.578854 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [S.], seq 3314162932, ack 2169217509, win 65535, options [mss 1400,sackOK,TS val 2328986108 ecr 319322489,nop,wscale 13], length 0
+17:38:28.578989 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 319322511 ecr 2328986108], length 0
+17:38:28.588557 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 319322521 ecr 2328986108], length 192
+17:38:28.604259 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [.], ack 193, win 16, options [nop,nop,TS val 2328986133 ecr 319322521], length 0
+17:38:28.609274 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 2328986137 ecr 319322521], length 1448
+17:38:28.609276 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 2328986137 ecr 319322521], length 1305
+17:38:28.609366 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 319322542 ecr 2328986137], length 0
+17:38:28.612254 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 319322544 ecr 2328986137], length 93
+17:38:28.629662 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 2328986158 ecr 319322544], length 51
+17:38:28.629772 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 319322562 ecr 2328986158], length 0
+17:38:28.630473 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 319322562 ecr 2328986158], length 498
+17:38:28.630516 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2805, win 2048, options [nop,nop,TS val 319322562 ecr 2328986158], length 222
+17:38:28.645393 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [.], ack 1006, win 16, options [nop,nop,TS val 2328986175 ecr 319322562], length 0
+17:38:28.714778 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [P.], seq 2805:3630, ack 1006, win 16, options [nop,nop,TS val 2328986243 ecr 319322562], length 825
+17:38:28.714898 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 319322647 ecr 2328986243], length 0
+17:38:28.717925 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3630, win 2048, options [nop,nop,TS val 319322650 ecr 2328986243], length 0
+17:38:28.734522 IP 104.18.40.98.443 > 10.44.0.112.57636: Flags [F.], seq 3630, ack 1007, win 16, options [nop,nop,TS val 2328986263 ecr 319322650], length 0
+17:38:28.734690 IP 10.44.0.112.57636 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 319322666 ecr 2328986263], length 0
+17:40:55.086848 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [S], seq 3511840652, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1501132551 ecr 0,sackOK,eol], length 0
+17:40:55.104323 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [S.], seq 2579018817, ack 3511840653, win 65535, options [mss 1400,sackOK,TS val 4078172595 ecr 1501132551,nop,wscale 13], length 0
+17:40:55.104445 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1501132569 ecr 4078172595], length 0
+17:40:55.112277 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1501132577 ecr 4078172595], length 192
+17:40:55.143394 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [.], ack 193, win 16, options [nop,nop,TS val 4078172621 ecr 1501132577], length 0
+17:40:55.143395 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 4078172625 ecr 1501132577], length 1448
+17:40:55.143512 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 1501132608 ecr 4078172625], length 0
+17:40:55.146675 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 4078172625 ecr 1501132577], length 1305
+17:40:55.146871 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [.], ack 2754, win 2027, options [nop,nop,TS val 1501132611 ecr 4078172625], length 0
+17:40:55.148530 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 1501132613 ecr 4078172625], length 93
+17:40:55.186031 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 4078172672 ecr 1501132613], length 51
+17:40:55.186140 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 1501132650 ecr 4078172672], length 0
+17:40:55.186622 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 1501132650 ecr 4078172672], length 498
+17:40:55.186647 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [P.], seq 784:1024, ack 2805, win 2048, options [nop,nop,TS val 1501132650 ecr 4078172672], length 240
+17:40:55.202968 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [.], ack 1024, win 16, options [nop,nop,TS val 4078172695 ecr 1501132650], length 0
+17:40:55.241736 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [P.], seq 2805:3630, ack 1024, win 16, options [nop,nop,TS val 4078172734 ecr 1501132650], length 825
+17:40:55.241836 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 1501132706 ecr 4078172734], length 0
+17:40:55.242865 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [F.], seq 1024, ack 3630, win 2048, options [nop,nop,TS val 1501132707 ecr 4078172734], length 0
+17:40:55.261049 IP 104.18.40.98.443 > 10.44.0.112.57763: Flags [F.], seq 3630, ack 1025, win 16, options [nop,nop,TS val 4078172754 ecr 1501132707], length 0
+17:40:55.261163 IP 10.44.0.112.57763 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 1501132725 ecr 4078172754], length 0
+17:40:58.325074 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [S], seq 2479365443, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3581357555 ecr 0,sackOK,eol], length 0
+17:40:58.355626 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [S.], seq 2505869656, ack 2479365444, win 65535, options [mss 1400,sackOK,TS val 3113877298 ecr 3581357555,nop,wscale 13], length 0
+17:40:58.355785 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3581357586 ecr 3113877298], length 0
+17:40:58.364029 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3581357594 ecr 3113877298], length 192
+17:40:58.389350 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [.], ack 193, win 16, options [nop,nop,TS val 3113877331 ecr 3581357594], length 0
+17:40:58.393818 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3113877335 ecr 3581357594], length 1448
+17:40:58.393821 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 3113877335 ecr 3581357594], length 1307
+17:40:58.393922 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 3581357624 ecr 3113877335], length 0
+17:40:58.396923 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 3581357627 ecr 3113877335], length 93
+17:40:58.411778 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 3113877354 ecr 3581357627], length 51
+17:40:58.411869 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 3581357642 ecr 3113877354], length 0
+17:40:58.412564 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 3581357642 ecr 3113877354], length 498
+17:40:58.412669 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [P.], seq 784:1001, ack 2807, win 2048, options [nop,nop,TS val 3581357642 ecr 3113877354], length 217
+17:40:58.568930 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [P.], seq 286:1001, ack 2807, win 2048, options [nop,nop,TS val 3581357799 ecr 3113877354], length 715
+17:40:58.632413 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [P.], seq 2807:3632, ack 1001, win 16, options [nop,nop,TS val 3113877572 ecr 3581357799], length 825
+17:40:58.632550 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 3581357863 ecr 3113877572], length 0
+17:40:58.635493 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [F.], seq 1001, ack 3632, win 2048, options [nop,nop,TS val 3581357866 ecr 3113877572], length 0
+17:40:58.651819 IP 104.18.40.98.443 > 10.44.0.112.57768: Flags [F.], seq 3632, ack 1002, win 16, options [nop,nop,TS val 3113877594 ecr 3581357866], length 0
+17:40:58.651940 IP 10.44.0.112.57768 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 3581357882 ecr 3113877594], length 0
+17:41:01.990586 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [S], seq 366433238, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 711246851 ecr 0,sackOK,eol], length 0
+17:41:02.011396 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [S.], seq 2361277840, ack 366433239, win 65535, options [mss 1400,sackOK,TS val 1135270904 ecr 711246851,nop,wscale 13], length 0
+17:41:02.011521 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 711246872 ecr 1135270904], length 0
+17:41:02.018366 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 711246879 ecr 1135270904], length 192
+17:41:02.044692 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [.], ack 193, win 16, options [nop,nop,TS val 1135270938 ecr 711246879], length 0
+17:41:02.048885 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1135270941 ecr 711246879], length 1448
+17:41:02.048887 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1135270941 ecr 711246879], length 1307
+17:41:02.048980 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 711246909 ecr 1135270941], length 0
+17:41:02.051591 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 711246911 ecr 1135270941], length 93
+17:41:02.067223 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1135270961 ecr 711246911], length 51
+17:41:02.067317 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 711246928 ecr 1135270961], length 0
+17:41:02.067868 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 711246928 ecr 1135270961], length 498
+17:41:02.067922 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [P.], seq 784:1017, ack 2807, win 2048, options [nop,nop,TS val 711246928 ecr 1135270961], length 233
+17:41:02.083954 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [.], ack 1017, win 16, options [nop,nop,TS val 1135270977 ecr 711246928], length 0
+17:41:02.122597 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [P.], seq 2807:3632, ack 1017, win 16, options [nop,nop,TS val 1135271014 ecr 711246928], length 825
+17:41:02.122673 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 711246983 ecr 1135271014], length 0
+17:41:02.125228 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [F.], seq 1017, ack 3632, win 2048, options [nop,nop,TS val 711246986 ecr 1135271014], length 0
+17:41:02.143494 IP 104.18.40.98.443 > 10.44.0.112.57774: Flags [F.], seq 3632, ack 1018, win 16, options [nop,nop,TS val 1135271038 ecr 711246986], length 0
+17:41:02.143616 IP 10.44.0.112.57774 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 711247004 ecr 1135271038], length 0
+17:41:21.534842 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, initial, dcid 3e5e081737f5206a, length 1232
+17:41:21.534856 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, initial, dcid 3e5e081737f5206a, length 1232
+17:41:21.534960 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, 0-rtt, dcid 3e5e081737f5206a, length 65
+17:41:21.535124 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, 0-rtt, dcid 3e5e081737f5206a, length 417
+17:41:21.562222 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, initial, scid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 22
+17:41:21.564064 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, initial, scid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 23
+17:41:21.564066 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, initial, scid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 1170
+17:41:21.564068 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, initial, scid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 57, handshake, scid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 232, protected
+17:41:21.564335 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, initial, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 1130, handshake, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e, length 61
+17:41:21.587825 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.587827 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.587828 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.587828 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.587940 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.587969 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.587991 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.610156 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.637276 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.813275 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.831364 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.831367 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:21.833394 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.833480 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:21.849787 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:22.054057 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:22.083141 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:22.103391 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:22.133144 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:35.287941 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:35.308971 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:35.512274 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:35.531337 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:35.564577 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:35.566558 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:35.566648 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:35.585763 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:35.790984 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:35.811586 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.016848 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.036455 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.036458 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.036459 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.036460 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.036792 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.064390 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.127066 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.136371 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.158950 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.363631 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.379480 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.399980 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.401567 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.401636 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.417964 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.621329 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.639383 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.695283 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.701526 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.701530 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.701531 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.701532 IP 104.18.40.98.443 > 10.44.0.112.52015: quic, protected
+17:41:36.701718 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.701822 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.701898 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:41:36.701962 IP 10.44.0.112.52015 > 104.18.40.98.443: quic, protected, dcid 01b5467161e55c0a25b7e07130e57e7df2c4fc5e
+17:49:22.990634 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [S], seq 3364627117, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2373224402 ecr 0,sackOK,eol], length 0
+17:49:23.009159 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [S.], seq 2078766864, ack 3364627118, win 65535, options [mss 1400,sackOK,TS val 651531992 ecr 2373224402,nop,wscale 13], length 0
+17:49:23.009312 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2373224421 ecr 651531992], length 0
+17:49:23.017651 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2373224429 ecr 651531992], length 192
+17:49:23.032034 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [.], ack 193, win 16, options [nop,nop,TS val 651532014 ecr 2373224429], length 0
+17:49:23.037522 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 651532019 ecr 2373224429], length 1448
+17:49:23.037525 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 651532019 ecr 2373224429], length 1306
+17:49:23.037643 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 2373224449 ecr 651532019], length 0
+17:49:23.040605 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 2373224452 ecr 651532019], length 93
+17:49:23.057574 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 651532039 ecr 2373224452], length 51
+17:49:23.057689 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 2373224469 ecr 651532039], length 0
+17:49:23.058541 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 2373224469 ecr 651532039], length 498
+17:49:23.058702 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [P.], seq 784:1024, ack 2806, win 2048, options [nop,nop,TS val 2373224470 ecr 651532039], length 240
+17:49:23.083810 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [.], ack 1024, win 16, options [nop,nop,TS val 651532063 ecr 2373224469], length 0
+17:49:23.123559 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [P.], seq 2806:3631, ack 1024, win 16, options [nop,nop,TS val 651532105 ecr 2373224469], length 825
+17:49:23.123674 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 2373224535 ecr 651532105], length 0
+17:49:23.126171 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [F.], seq 1024, ack 3631, win 2048, options [nop,nop,TS val 2373224538 ecr 651532105], length 0
+17:49:23.139992 IP 104.18.40.98.443 > 10.44.0.112.58000: Flags [F.], seq 3631, ack 1025, win 16, options [nop,nop,TS val 651532123 ecr 2373224538], length 0
+17:49:23.140146 IP 10.44.0.112.58000 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 2373224552 ecr 651532123], length 0
+17:49:26.198027 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [S], seq 2389695194, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 495606564 ecr 0,sackOK,eol], length 0
+17:49:26.209686 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [S.], seq 3325576470, ack 2389695195, win 65535, options [mss 1400,sackOK,TS val 570122714 ecr 495606564,nop,wscale 13], length 0
+17:49:26.209820 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 495606576 ecr 570122714], length 0
+17:49:26.218497 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 495606585 ecr 570122714], length 192
+17:49:26.227406 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [.], ack 193, win 16, options [nop,nop,TS val 570122734 ecr 495606585], length 0
+17:49:26.232779 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 570122738 ecr 495606585], length 1448
+17:49:26.232782 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 570122738 ecr 495606585], length 1306
+17:49:26.232898 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 495606600 ecr 570122738], length 0
+17:49:26.236129 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 495606602 ecr 570122738], length 93
+17:49:26.246181 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 570122752 ecr 495606602], length 51
+17:49:26.246302 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 495606613 ecr 570122752], length 0
+17:49:26.247125 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 495606613 ecr 570122752], length 498
+17:49:26.247269 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [P.], seq 784:1001, ack 2806, win 2048, options [nop,nop,TS val 495606613 ecr 570122752], length 217
+17:49:26.258659 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [.], ack 1001, win 16, options [nop,nop,TS val 570122765 ecr 495606613], length 0
+17:49:26.327393 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [P.], seq 2806:3631, ack 1001, win 16, options [nop,nop,TS val 570122834 ecr 495606613], length 825
+17:49:26.327501 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 495606694 ecr 570122834], length 0
+17:49:26.329785 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [F.], seq 1001, ack 3631, win 2048, options [nop,nop,TS val 495606696 ecr 570122834], length 0
+17:49:26.342352 IP 172.64.147.158.443 > 10.44.0.112.58001: Flags [F.], seq 3631, ack 1002, win 16, options [nop,nop,TS val 570122846 ecr 495606696], length 0
+17:49:26.342520 IP 10.44.0.112.58001 > 172.64.147.158.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 495606709 ecr 570122846], length 0
+17:49:29.406259 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [S], seq 1301458597, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 61544263 ecr 0,sackOK,eol], length 0
+17:49:29.423101 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [S.], seq 2543773140, ack 1301458598, win 65535, options [mss 1400,sackOK,TS val 4207676262 ecr 61544263,nop,wscale 13], length 0
+17:49:29.423469 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 61544280 ecr 4207676262], length 0
+17:49:29.431739 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 61544288 ecr 4207676262], length 192
+17:49:29.450655 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [.], ack 193, win 16, options [nop,nop,TS val 4207676288 ecr 61544288], length 0
+17:49:29.455571 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 4207676290 ecr 61544288], length 1448
+17:49:29.455626 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 61544312 ecr 4207676290], length 0
+17:49:29.458147 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 4207676290 ecr 61544288], length 1307
+17:49:29.458175 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [.], ack 2756, win 2027, options [nop,nop,TS val 61544315 ecr 4207676290], length 0
+17:49:29.461364 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 61544317 ecr 4207676290], length 93
+17:49:29.478965 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 4207676317 ecr 61544317], length 51
+17:49:29.479115 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 61544336 ecr 4207676317], length 0
+17:49:29.479877 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 61544336 ecr 4207676317], length 498
+17:49:29.479937 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [P.], seq 784:1017, ack 2807, win 2048, options [nop,nop,TS val 61544336 ecr 4207676317], length 233
+17:49:29.498818 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [.], ack 1017, win 16, options [nop,nop,TS val 4207676337 ecr 61544336], length 0
+17:49:29.540966 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [P.], seq 2807:3632, ack 1017, win 16, options [nop,nop,TS val 4207676380 ecr 61544336], length 825
+17:49:29.541023 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 61544398 ecr 4207676380], length 0
+17:49:29.542597 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [F.], seq 1017, ack 3632, win 2048, options [nop,nop,TS val 61544399 ecr 4207676380], length 0
+17:49:29.557780 IP 104.18.40.98.443 > 10.44.0.112.58005: Flags [F.], seq 3632, ack 1018, win 16, options [nop,nop,TS val 4207676397 ecr 61544399], length 0
+17:49:29.557859 IP 10.44.0.112.58005 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 61544414 ecr 4207676397], length 0
+17:49:32.619021 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [S], seq 878670388, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1135259197 ecr 0,sackOK,eol], length 0
+17:49:32.636465 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [S.], seq 1418746088, ack 878670389, win 65535, options [mss 1400,sackOK,TS val 2265373628 ecr 1135259197,nop,wscale 13], length 0
+17:49:32.636599 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1135259215 ecr 2265373628], length 0
+17:49:32.645700 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1135259224 ecr 2265373628], length 192
+17:49:32.662135 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [.], ack 193, win 16, options [nop,nop,TS val 2265373654 ecr 1135259224], length 0
+17:49:32.665842 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 2265373658 ecr 1135259224], length 1448
+17:49:32.665916 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [.], ack 1449, win 2037, options [nop,nop,TS val 1135259245 ecr 2265373658], length 0
+17:49:32.673269 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 2265373658 ecr 1135259224], length 1306
+17:49:32.673400 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [.], ack 2755, win 2027, options [nop,nop,TS val 1135259252 ecr 2265373658], length 0
+17:49:32.675701 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 1135259254 ecr 2265373658], length 93
+17:49:32.705238 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 2265373686 ecr 1135259254], length 51
+17:49:32.705339 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 1135259284 ecr 2265373686], length 0
+17:49:32.706120 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 1135259284 ecr 2265373686], length 498
+17:49:32.706203 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2806, win 2048, options [nop,nop,TS val 1135259284 ecr 2265373686], length 222
+17:49:32.722160 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [.], ack 1006, win 16, options [nop,nop,TS val 2265373713 ecr 1135259284], length 0
+17:49:32.768010 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [P.], seq 2806:3631, ack 1006, win 16, options [nop,nop,TS val 2265373760 ecr 1135259284], length 825
+17:49:32.768128 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 1135259347 ecr 2265373760], length 0
+17:49:32.771560 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3631, win 2048, options [nop,nop,TS val 1135259349 ecr 2265373760], length 0
+17:49:32.791775 IP 104.18.40.98.443 > 10.44.0.112.58007: Flags [F.], seq 3631, ack 1007, win 16, options [nop,nop,TS val 2265373781 ecr 1135259349], length 0
+17:49:32.791961 IP 10.44.0.112.58007 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 1135259370 ecr 2265373781], length 0
+17:49:35.842598 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [S], seq 1155992577, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1189446374 ecr 0,sackOK,eol], length 0
+17:49:35.864746 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [S.], seq 3968042984, ack 1155992578, win 65535, options [mss 1400,sackOK,TS val 73288810 ecr 1189446374,nop,wscale 13], length 0
+17:49:35.864883 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1189446396 ecr 73288810], length 0
+17:49:35.872423 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1189446404 ecr 73288810], length 192
+17:49:35.893185 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [.], ack 193, win 16, options [nop,nop,TS val 73288842 ecr 1189446404], length 0
+17:49:35.898713 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 73288845 ecr 1189446404], length 1448
+17:49:35.898714 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 73288845 ecr 1189446404], length 1305
+17:49:35.898802 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 1189446430 ecr 73288845], length 0
+17:49:35.901650 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 1189446433 ecr 73288845], length 93
+17:49:35.918318 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 73288866 ecr 1189446433], length 51
+17:49:35.918419 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 1189446450 ecr 73288866], length 0
+17:49:35.919093 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 1189446450 ecr 73288866], length 498
+17:49:35.919202 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [P.], seq 784:1012, ack 2805, win 2048, options [nop,nop,TS val 1189446450 ecr 73288866], length 228
+17:49:35.933166 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [.], ack 1012, win 16, options [nop,nop,TS val 73288882 ecr 1189446450], length 0
+17:49:36.009293 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [P.], seq 2805:3630, ack 1012, win 16, options [nop,nop,TS val 73288957 ecr 1189446450], length 825
+17:49:36.009396 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 1189446541 ecr 73288957], length 0
+17:49:36.012116 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [F.], seq 1012, ack 3630, win 2048, options [nop,nop,TS val 1189446544 ecr 73288957], length 0
+17:49:36.030907 IP 104.18.40.98.443 > 10.44.0.112.58009: Flags [F.], seq 3630, ack 1013, win 16, options [nop,nop,TS val 73288980 ecr 1189446544], length 0
+17:49:36.031068 IP 10.44.0.112.58009 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 1189446563 ecr 73288980], length 0
+17:49:39.088584 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [S], seq 795017869, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 367474454 ecr 0,sackOK,eol], length 0
+17:49:39.123276 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [S.], seq 52010706, ack 795017870, win 65535, options [mss 1400,sackOK,TS val 3730295893 ecr 367474454,nop,wscale 13], length 0
+17:49:39.123422 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 367474489 ecr 3730295893], length 0
+17:49:39.134293 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 367474500 ecr 3730295893], length 192
+17:49:39.154609 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [.], ack 193, win 16, options [nop,nop,TS val 3730295924 ecr 367474500], length 0
+17:49:39.160320 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3730295927 ecr 367474500], length 1448
+17:49:39.160322 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 3730295927 ecr 367474500], length 1306
+17:49:39.160431 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 367474526 ecr 3730295927], length 0
+17:49:39.163850 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 367474529 ecr 3730295927], length 93
+17:49:39.181811 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 3730295952 ecr 367474529], length 51
+17:49:39.181931 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 367474548 ecr 3730295952], length 0
+17:49:39.183812 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 367474549 ecr 3730295952], length 498
+17:49:39.183974 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [P.], seq 784:1018, ack 2806, win 2048, options [nop,nop,TS val 367474549 ecr 3730295952], length 234
+17:49:39.208565 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [.], ack 1018, win 16, options [nop,nop,TS val 3730295970 ecr 367474549], length 0
+17:49:39.282981 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [P.], seq 2806:3631, ack 1018, win 16, options [nop,nop,TS val 3730296054 ecr 367474549], length 825
+17:49:39.283091 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 367474649 ecr 3730296054], length 0
+17:49:39.286891 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [F.], seq 1018, ack 3631, win 2048, options [nop,nop,TS val 367474652 ecr 3730296054], length 0
+17:49:39.301420 IP 104.18.40.98.443 > 10.44.0.112.58011: Flags [F.], seq 3631, ack 1019, win 16, options [nop,nop,TS val 3730296072 ecr 367474652], length 0
+17:49:39.301642 IP 10.44.0.112.58011 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 367474667 ecr 3730296072], length 0
+17:49:42.371852 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [S], seq 2268192338, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3831136245 ecr 0,sackOK,eol], length 0
+17:49:42.386344 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [S.], seq 865282602, ack 2268192339, win 65535, options [mss 1400,sackOK,TS val 1791027823 ecr 3831136245,nop,wscale 13], length 0
+17:49:42.386481 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3831136260 ecr 1791027823], length 0
+17:49:42.394038 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3831136268 ecr 1791027823], length 192
+17:49:42.409160 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [.], ack 193, win 16, options [nop,nop,TS val 1791027845 ecr 3831136268], length 0
+17:49:42.434584 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1791027852 ecr 3831136268], length 1448
+17:49:42.434586 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1791027852 ecr 3831136268], length 1307
+17:49:42.434680 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 3831136308 ecr 1791027852], length 0
+17:49:42.439708 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 3831136313 ecr 1791027852], length 93
+17:49:42.452650 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1791027889 ecr 3831136313], length 51
+17:49:42.452742 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 3831136326 ecr 1791027889], length 0
+17:49:42.453615 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 3831136326 ecr 1791027889], length 498
+17:49:42.453726 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [P.], seq 784:1012, ack 2807, win 2048, options [nop,nop,TS val 3831136327 ecr 1791027889], length 228
+17:49:42.468696 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [.], ack 1012, win 16, options [nop,nop,TS val 1791027904 ecr 3831136326], length 0
+17:49:42.536437 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [P.], seq 2807:3632, ack 1012, win 16, options [nop,nop,TS val 1791027963 ecr 3831136326], length 825
+17:49:42.536527 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 3831136410 ecr 1791027963], length 0
+17:49:42.539331 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [F.], seq 1012, ack 3632, win 2048, options [nop,nop,TS val 3831136413 ecr 1791027963], length 0
+17:49:42.557466 IP 104.18.40.98.443 > 10.44.0.112.58014: Flags [F.], seq 3632, ack 1013, win 16, options [nop,nop,TS val 1791027993 ecr 3831136413], length 0
+17:49:42.557662 IP 10.44.0.112.58014 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 3831136431 ecr 1791027993], length 0
+17:49:45.620999 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [S], seq 2422283997, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 66463035 ecr 0,sackOK,eol], length 0
+17:49:45.637891 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [S.], seq 791205270, ack 2422283998, win 65535, options [mss 1400,sackOK,TS val 3750347652 ecr 66463035,nop,wscale 13], length 0
+17:49:45.637999 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 66463053 ecr 3750347652], length 0
+17:49:45.645438 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 66463060 ecr 3750347652], length 192
+17:49:45.661154 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [.], ack 193, win 16, options [nop,nop,TS val 3750347675 ecr 66463060], length 0
+17:49:45.665804 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 3750347677 ecr 66463060], length 1448
+17:49:45.665807 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 3750347677 ecr 66463060], length 1305
+17:49:45.665903 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 66463080 ecr 3750347677], length 0
+17:49:45.668604 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 66463083 ecr 3750347677], length 93
+17:49:45.684878 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 3750347698 ecr 66463083], length 51
+17:49:45.684881 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [.], ack 286, win 16, options [nop,nop,TS val 3750347698 ecr 66463083], length 0
+17:49:45.685000 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 66463100 ecr 3750347698], length 0
+17:49:45.685782 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 66463100 ecr 3750347698], length 498
+17:49:45.685932 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2805, win 2048, options [nop,nop,TS val 66463100 ecr 3750347698], length 222
+17:49:45.707893 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [.], ack 1006, win 16, options [nop,nop,TS val 3750347716 ecr 66463100], length 0
+17:49:45.759664 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [P.], seq 2805:3630, ack 1006, win 16, options [nop,nop,TS val 3750347772 ecr 66463100], length 825
+17:49:45.759772 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 66463174 ecr 3750347772], length 0
+17:49:45.762502 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3630, win 2048, options [nop,nop,TS val 66463177 ecr 3750347772], length 0
+17:49:45.783896 IP 104.18.40.98.443 > 10.44.0.112.58015: Flags [F.], seq 3630, ack 1007, win 16, options [nop,nop,TS val 3750347796 ecr 66463177], length 0
+17:49:45.784051 IP 10.44.0.112.58015 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 66463199 ecr 3750347796], length 0
+17:49:48.833487 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [S], seq 1684649533, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 3914009216 ecr 0,sackOK,eol], length 0
+17:49:48.848950 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [S.], seq 1461428883, ack 1684649534, win 65535, options [mss 1400,sackOK,TS val 977618253 ecr 3914009216,nop,wscale 13], length 0
+17:49:48.849097 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 3914009232 ecr 977618253], length 0
+17:49:48.856370 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 3914009239 ecr 977618253], length 192
+17:49:48.871198 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [.], ack 193, win 16, options [nop,nop,TS val 977618276 ecr 3914009239], length 0
+17:49:48.878306 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 977618279 ecr 3914009239], length 1448
+17:49:48.878307 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 977618279 ecr 3914009239], length 1305
+17:49:48.878392 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 3914009261 ecr 977618279], length 0
+17:49:48.880047 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 3914009262 ecr 977618279], length 93
+17:49:48.895042 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 977618300 ecr 3914009262], length 51
+17:49:48.895104 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 3914009278 ecr 977618300], length 0
+17:49:48.895422 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 3914009278 ecr 977618300], length 498
+17:49:48.895445 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [P.], seq 784:1028, ack 2805, win 2048, options [nop,nop,TS val 3914009278 ecr 977618300], length 244
+17:49:48.923176 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [.], ack 1028, win 16, options [nop,nop,TS val 977618327 ecr 3914009278], length 0
+17:49:48.972878 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [P.], seq 2805:3630, ack 1028, win 16, options [nop,nop,TS val 977618376 ecr 3914009278], length 825
+17:49:48.972947 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 3914009356 ecr 977618376], length 0
+17:49:48.974245 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [F.], seq 1028, ack 3630, win 2048, options [nop,nop,TS val 3914009357 ecr 977618376], length 0
+17:49:48.990285 IP 104.18.40.98.443 > 10.44.0.112.58016: Flags [F.], seq 3630, ack 1029, win 16, options [nop,nop,TS val 977618394 ecr 3914009357], length 0
+17:49:48.990375 IP 10.44.0.112.58016 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 3914009373 ecr 977618394], length 0
+17:49:52.048065 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [S], seq 3009105517, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 4174162719 ecr 0,sackOK,eol], length 0
+17:49:52.069829 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [S.], seq 8616991, ack 3009105518, win 65535, options [mss 1400,sackOK,TS val 1729288685 ecr 4174162719,nop,wscale 13], length 0
+17:49:52.069941 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 4174162742 ecr 1729288685], length 0
+17:49:52.078114 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 4174162750 ecr 1729288685], length 192
+17:49:52.094874 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [.], ack 193, win 16, options [nop,nop,TS val 1729288713 ecr 4174162750], length 0
+17:49:52.100711 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1729288717 ecr 4174162750], length 1448
+17:49:52.100713 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1729288717 ecr 4174162750], length 1307
+17:49:52.100807 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 4174162772 ecr 1729288717], length 0
+17:49:52.103713 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 4174162775 ecr 1729288717], length 93
+17:49:52.118657 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1729288737 ecr 4174162775], length 51
+17:49:52.118758 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 4174162790 ecr 1729288737], length 0
+17:49:52.119634 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 4174162790 ecr 1729288737], length 498
+17:49:52.119776 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [P.], seq 784:1029, ack 2807, win 2048, options [nop,nop,TS val 4174162791 ecr 1729288737], length 245
+17:49:52.145756 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [.], ack 1029, win 16, options [nop,nop,TS val 1729288760 ecr 4174162790], length 0
+17:49:52.226832 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [P.], seq 2807:3632, ack 1029, win 16, options [nop,nop,TS val 1729288844 ecr 4174162790], length 825
+17:49:52.226933 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 4174162899 ecr 1729288844], length 0
+17:49:52.229485 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [F.], seq 1029, ack 3632, win 2048, options [nop,nop,TS val 4174162901 ecr 1729288844], length 0
+17:49:52.247947 IP 104.18.40.98.443 > 10.44.0.112.58017: Flags [F.], seq 3632, ack 1030, win 16, options [nop,nop,TS val 1729288864 ecr 4174162901], length 0
+17:49:52.248078 IP 10.44.0.112.58017 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 4174162920 ecr 1729288864], length 0
+17:49:55.332115 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [S], seq 4021404164, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2478608631 ecr 0,sackOK,eol], length 0
+17:49:55.357308 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [S.], seq 1607786085, ack 4021404165, win 65535, options [mss 1400,sackOK,TS val 430959944 ecr 2478608631,nop,wscale 13], length 0
+17:49:55.357447 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2478608657 ecr 430959944], length 0
+17:49:55.364915 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2478608665 ecr 430959944], length 192
+17:49:55.384554 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [.], ack 193, win 16, options [nop,nop,TS val 430959972 ecr 2478608665], length 0
+17:49:55.384555 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 430959974 ecr 2478608665], length 1448
+17:49:55.384556 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [P.], seq 1449:2754, ack 193, win 16, options [nop,nop,TS val 430959974 ecr 2478608665], length 1305
+17:49:55.384658 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [.], ack 2754, win 2017, options [nop,nop,TS val 2478608684 ecr 430959974], length 0
+17:49:55.387093 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2754, win 2048, options [nop,nop,TS val 2478608686 ecr 430959974], length 93
+17:49:55.404018 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [P.], seq 2754:2805, ack 286, win 16, options [nop,nop,TS val 430959991 ecr 2478608686], length 51
+17:49:55.404110 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [.], ack 2805, win 2047, options [nop,nop,TS val 2478608704 ecr 430959991], length 0
+17:49:55.404579 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2805, win 2048, options [nop,nop,TS val 2478608704 ecr 430959991], length 498
+17:49:55.404611 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [P.], seq 784:1023, ack 2805, win 2048, options [nop,nop,TS val 2478608704 ecr 430959991], length 239
+17:49:55.433449 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [.], ack 1023, win 16, options [nop,nop,TS val 430960017 ecr 2478608704], length 0
+17:49:55.484231 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [P.], seq 2805:3630, ack 1023, win 16, options [nop,nop,TS val 430960071 ecr 2478608704], length 825
+17:49:55.484328 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [.], ack 3630, win 2035, options [nop,nop,TS val 2478608784 ecr 430960071], length 0
+17:49:55.486294 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [F.], seq 1023, ack 3630, win 2048, options [nop,nop,TS val 2478608786 ecr 430960071], length 0
+17:49:55.504719 IP 104.18.40.98.443 > 10.44.0.112.58018: Flags [F.], seq 3630, ack 1024, win 16, options [nop,nop,TS val 430960092 ecr 2478608786], length 0
+17:49:55.504874 IP 10.44.0.112.58018 > 104.18.40.98.443: Flags [.], ack 3631, win 2048, options [nop,nop,TS val 2478608804 ecr 430960092], length 0
+17:49:58.570236 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [S], seq 3769440025, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 644841961 ecr 0,sackOK,eol], length 0
+17:49:58.590499 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [S.], seq 282641637, ack 3769440026, win 65535, options [mss 1400,sackOK,TS val 1717856890 ecr 644841961,nop,wscale 13], length 0
+17:49:58.590642 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 644841981 ecr 1717856890], length 0
+17:49:58.607781 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 644841998 ecr 1717856890], length 192
+17:49:58.626952 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [.], ack 193, win 16, options [nop,nop,TS val 1717856925 ecr 644841998], length 0
+17:49:58.637674 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1717856927 ecr 644841998], length 1448
+17:49:58.637676 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [P.], seq 1449:2755, ack 193, win 16, options [nop,nop,TS val 1717856927 ecr 644841998], length 1306
+17:49:58.637743 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [.], ack 2755, win 2017, options [nop,nop,TS val 644842028 ecr 1717856927], length 0
+17:49:58.640328 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2755, win 2048, options [nop,nop,TS val 644842030 ecr 1717856927], length 93
+17:49:58.656617 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [P.], seq 2755:2806, ack 286, win 16, options [nop,nop,TS val 1717856955 ecr 644842030], length 51
+17:49:58.656739 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [.], ack 2806, win 2047, options [nop,nop,TS val 644842047 ecr 1717856955], length 0
+17:49:58.657703 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2806, win 2048, options [nop,nop,TS val 644842048 ecr 1717856955], length 498
+17:49:58.657792 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [P.], seq 784:1018, ack 2806, win 2048, options [nop,nop,TS val 644842048 ecr 1717856955], length 234
+17:49:58.673334 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [.], ack 1018, win 16, options [nop,nop,TS val 1717856972 ecr 644842048], length 0
+17:49:58.728070 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [P.], seq 2806:3631, ack 1018, win 16, options [nop,nop,TS val 1717857027 ecr 644842048], length 825
+17:49:58.728179 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [.], ack 3631, win 2035, options [nop,nop,TS val 644842119 ecr 1717857027], length 0
+17:49:58.731059 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [F.], seq 1018, ack 3631, win 2048, options [nop,nop,TS val 644842122 ecr 1717857027], length 0
+17:49:58.749743 IP 104.18.40.98.443 > 10.44.0.112.58021: Flags [F.], seq 3631, ack 1019, win 16, options [nop,nop,TS val 1717857045 ecr 644842122], length 0
+17:49:58.749932 IP 10.44.0.112.58021 > 104.18.40.98.443: Flags [.], ack 3632, win 2048, options [nop,nop,TS val 644842140 ecr 1717857045], length 0
+17:50:01.797271 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [S], seq 1149998572, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 1065324616 ecr 0,sackOK,eol], length 0
+17:50:01.819192 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [S.], seq 3088030283, ack 1149998573, win 65535, options [mss 1400,sackOK,TS val 1877607786 ecr 1065324616,nop,wscale 13], length 0
+17:50:01.819270 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 1065324638 ecr 1877607786], length 0
+17:50:01.823837 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 1065324642 ecr 1877607786], length 192
+17:50:01.858917 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [.], ack 193, win 16, options [nop,nop,TS val 1877607825 ecr 1065324642], length 0
+17:50:01.858919 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1877607829 ecr 1065324642], length 1448
+17:50:01.858921 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1877607829 ecr 1065324642], length 1307
+17:50:01.859053 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 1065324678 ecr 1877607829], length 0
+17:50:01.863824 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 1065324682 ecr 1877607829], length 93
+17:50:01.880177 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1877607854 ecr 1065324682], length 51
+17:50:01.880302 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 1065324699 ecr 1877607854], length 0
+17:50:01.881619 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 1065324700 ecr 1877607854], length 498
+17:50:01.881742 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [P.], seq 784:1000, ack 2807, win 2048, options [nop,nop,TS val 1065324700 ecr 1877607854], length 216
+17:50:01.899721 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [.], ack 1000, win 16, options [nop,nop,TS val 1877607874 ecr 1065324700], length 0
+17:50:01.959199 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [P.], seq 2807:3632, ack 1000, win 16, options [nop,nop,TS val 1877607922 ecr 1065324700], length 825
+17:50:01.959303 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 1065324778 ecr 1877607922], length 0
+17:50:01.961270 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [F.], seq 1000, ack 3632, win 2048, options [nop,nop,TS val 1065324780 ecr 1877607922], length 0
+17:50:01.998860 IP 104.18.40.98.443 > 10.44.0.112.58027: Flags [F.], seq 3632, ack 1001, win 16, options [nop,nop,TS val 1877607967 ecr 1065324780], length 0
+17:50:01.998963 IP 10.44.0.112.58027 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 1065324818 ecr 1877607967], length 0
+17:50:05.047762 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [S], seq 2981950551, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 754609532 ecr 0,sackOK,eol], length 0
+17:50:05.070063 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [S.], seq 3714655017, ack 2981950552, win 65535, options [mss 1400,sackOK,TS val 1498792613 ecr 754609532,nop,wscale 13], length 0
+17:50:05.070196 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 754609555 ecr 1498792613], length 0
+17:50:05.077261 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 754609562 ecr 1498792613], length 192
+17:50:05.109883 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [.], ack 193, win 16, options [nop,nop,TS val 1498792653 ecr 754609562], length 0
+17:50:05.109885 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1498792655 ecr 754609562], length 1448
+17:50:05.109886 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1498792655 ecr 754609562], length 1307
+17:50:05.110016 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 754609595 ecr 1498792655], length 0
+17:50:05.112239 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 754609596 ecr 1498792655], length 93
+17:50:05.129421 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1498792677 ecr 754609596], length 51
+17:50:05.129517 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 754609614 ecr 1498792677], length 0
+17:50:05.130003 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 754609614 ecr 1498792677], length 498
+17:50:05.130041 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [P.], seq 784:998, ack 2807, win 2048, options [nop,nop,TS val 754609614 ecr 1498792677], length 214
+17:50:05.151071 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [.], ack 998, win 16, options [nop,nop,TS val 1498792697 ecr 754609614], length 0
+17:50:05.190429 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [P.], seq 2807:3632, ack 998, win 16, options [nop,nop,TS val 1498792739 ecr 754609614], length 825
+17:50:05.190536 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 754609675 ecr 1498792739], length 0
+17:50:05.191872 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [F.], seq 998, ack 3632, win 2048, options [nop,nop,TS val 754609676 ecr 1498792739], length 0
+17:50:05.211630 IP 104.18.40.98.443 > 10.44.0.112.58030: Flags [F.], seq 3632, ack 999, win 16, options [nop,nop,TS val 1498792760 ecr 754609676], length 0
+17:50:05.211764 IP 10.44.0.112.58030 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 754609696 ecr 1498792760], length 0
+17:50:08.265297 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [S], seq 2203416979, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 2483183559 ecr 0,sackOK,eol], length 0
+17:50:08.311155 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [S.], seq 3741376885, ack 2203416980, win 65535, options [mss 1400,sackOK,TS val 2357111180 ecr 2483183559,nop,wscale 13], length 0
+17:50:08.311297 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 2483183604 ecr 2357111180], length 0
+17:50:08.320325 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 2483183614 ecr 2357111180], length 192
+17:50:08.341977 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [.], ack 193, win 16, options [nop,nop,TS val 2357111225 ecr 2483183614], length 0
+17:50:08.342570 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 2357111227 ecr 2483183614], length 1448
+17:50:08.342571 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 2357111227 ecr 2483183614], length 1307
+17:50:08.342613 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 2483183636 ecr 2357111227], length 0
+17:50:08.346910 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 2483183640 ecr 2357111227], length 93
+17:50:08.362878 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 2357111249 ecr 2483183640], length 51
+17:50:08.362946 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 2483183657 ecr 2357111249], length 0
+17:50:08.364393 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 2483183658 ecr 2357111249], length 498
+17:50:08.364478 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [P.], seq 784:1004, ack 2807, win 2048, options [nop,nop,TS val 2483183658 ecr 2357111249], length 220
+17:50:08.381479 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [.], ack 1004, win 16, options [nop,nop,TS val 2357111268 ecr 2483183658], length 0
+17:50:08.441221 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [P.], seq 2807:3632, ack 1004, win 16, options [nop,nop,TS val 2357111326 ecr 2483183658], length 825
+17:50:08.441322 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 2483183735 ecr 2357111326], length 0
+17:50:08.444985 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [F.], seq 1004, ack 3632, win 2048, options [nop,nop,TS val 2483183739 ecr 2357111326], length 0
+17:50:08.461977 IP 104.18.40.98.443 > 10.44.0.112.58035: Flags [F.], seq 3632, ack 1005, win 16, options [nop,nop,TS val 2357111347 ecr 2483183739], length 0
+17:50:08.462120 IP 10.44.0.112.58035 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 2483183756 ecr 2357111347], length 0
+17:50:11.517178 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [S], seq 20657664, win 65535, options [mss 1460,nop,wscale 6,nop,nop,TS val 275729825 ecr 0,sackOK,eol], length 0
+17:50:11.531917 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [S.], seq 2665966071, ack 20657665, win 65535, options [mss 1400,sackOK,TS val 1221109624 ecr 275729825,nop,wscale 13], length 0
+17:50:11.532064 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [.], ack 1, win 2060, options [nop,nop,TS val 275729840 ecr 1221109624], length 0
+17:50:11.540979 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [P.], seq 1:193, ack 1, win 2060, options [nop,nop,TS val 275729849 ecr 1221109624], length 192
+17:50:11.558371 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [.], ack 193, win 16, options [nop,nop,TS val 1221109649 ecr 275729849], length 0
+17:50:11.558970 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [.], seq 1:1449, ack 193, win 16, options [nop,nop,TS val 1221109650 ecr 275729849], length 1448
+17:50:11.558972 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [P.], seq 1449:2756, ack 193, win 16, options [nop,nop,TS val 1221109650 ecr 275729849], length 1307
+17:50:11.559071 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [.], ack 2756, win 2017, options [nop,nop,TS val 275729866 ecr 1221109650], length 0
+17:50:11.562278 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [P.], seq 193:286, ack 2756, win 2048, options [nop,nop,TS val 275729869 ecr 1221109650], length 93
+17:50:11.583913 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [P.], seq 2756:2807, ack 286, win 16, options [nop,nop,TS val 1221109672 ecr 275729869], length 51
+17:50:11.584041 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [.], ack 2807, win 2047, options [nop,nop,TS val 275729892 ecr 1221109672], length 0
+17:50:11.585101 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [P.], seq 286:784, ack 2807, win 2048, options [nop,nop,TS val 275729893 ecr 1221109672], length 498
+17:50:11.585249 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [P.], seq 784:1006, ack 2807, win 2048, options [nop,nop,TS val 275729893 ecr 1221109672], length 222
+17:50:11.604974 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [.], ack 1006, win 16, options [nop,nop,TS val 1221109696 ecr 275729893], length 0
+17:50:11.648405 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [P.], seq 2807:3632, ack 1006, win 16, options [nop,nop,TS val 1221109739 ecr 275729893], length 825
+17:50:11.648515 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [.], ack 3632, win 2035, options [nop,nop,TS val 275729956 ecr 1221109739], length 0
+17:50:11.651346 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [F.], seq 1006, ack 3632, win 2048, options [nop,nop,TS val 275729959 ecr 1221109739], length 0
+17:50:11.666758 IP 104.18.40.98.443 > 10.44.0.112.58040: Flags [F.], seq 3632, ack 1007, win 16, options [nop,nop,TS val 1221109758 ecr 275729959], length 0
+17:50:11.666925 IP 10.44.0.112.58040 > 104.18.40.98.443: Flags [.], ack 3633, win 2048, options [nop,nop,TS val 275729974 ecr 1221109758], length 0
+17:50:46.372423 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, initial, dcid 117b0e36000bcf92, length 1232
+17:50:46.372434 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, initial, dcid 117b0e36000bcf92, length 1232
+17:50:46.372511 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, 0-rtt, dcid 117b0e36000bcf92, length 63
+17:50:46.372651 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, 0-rtt, dcid 117b0e36000bcf92, length 344
+17:50:46.397419 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, initial, scid 01145b8c5f847f15f816f38c26847379394cf6c1, length 22
+17:50:46.397420 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, initial, scid 01145b8c5f847f15f816f38c26847379394cf6c1, length 23
+17:50:46.397421 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, initial, scid 01145b8c5f847f15f816f38c26847379394cf6c1, length 1170
+17:50:46.397423 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, initial, scid 01145b8c5f847f15f816f38c26847379394cf6c1, length 57, handshake, scid 01145b8c5f847f15f816f38c26847379394cf6c1, length 232, protected
+17:50:46.397758 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, initial, dcid 01145b8c5f847f15f816f38c26847379394cf6c1, length 1130, handshake, dcid 01145b8c5f847f15f816f38c26847379394cf6c1, length 61
+17:50:46.421868 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.421870 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.421871 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.421872 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.421959 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.421976 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.421988 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.466506 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.492190 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.666848 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.668333 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.668345 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.687156 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.888065 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.896346 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.946448 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:46.951657 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:46.970998 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.175658 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.185828 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.223188 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.223355 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.223885 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.223901 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.233485 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.233489 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.434418 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.444563 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.475788 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.478192 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.478300 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.485934 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.485938 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.688047 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.688052 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.688526 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.689717 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.697478 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.777899 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.804293 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.853341 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.853346 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.853347 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.853552 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.883640 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.898703 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+17:50:47.909775 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.997322 IP 172.64.147.158.443 > 10.44.0.112.59133: quic, protected
+17:50:47.997446 IP 10.44.0.112.59133 > 172.64.147.158.443: quic, protected, dcid 01145b8c5f847f15f816f38c26847379394cf6c1
+
+1285 packets captured
+106665 packets received by filter
+0 packets dropped by kernel

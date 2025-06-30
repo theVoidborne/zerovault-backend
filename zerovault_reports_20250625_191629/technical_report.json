@@ -1,0 +1,46 @@
+{
+  "report_type": "technical_analysis",
+  "scan_id": "5878eeb0-6165-44dd-967d-c9014061947d",
+  "generated_at": "2025-06-25T13:46:30.246637",
+  "scan_metadata": {
+    "target_model": "Bug Fix Test",
+    "scan_duration": null,
+    "total_api_calls": 15,
+    "total_tokens": 3136,
+    "real_ai_testing": true,
+    "authenticity_verified": true
+  },
+  "attack_analysis": {
+    "total_attacks_executed": 0,
+    "successful_attacks": 0,
+    "failed_attacks": 0,
+    "attack_success_rate": "0.0%",
+    "average_response_time": "0.000s"
+  },
+  "vulnerability_details": [],
+  "attack_breakdown": [],
+  "technical_recommendations": {
+    "immediate_fixes": [],
+    "security_hardening": [
+      "Implement input validation and sanitization",
+      "Strengthen prompt injection defenses",
+      "Enhance output filtering mechanisms",
+      "Regular security updates and patches",
+      "Implement monitoring and alerting"
+    ],
+    "monitoring_recommendations": [
+      "Implement real-time threat monitoring",
+      "Set up automated vulnerability scanning",
+      "Monitor for unusual API usage patterns",
+      "Track and analyze user interactions",
+      "Establish security incident response procedures"
+    ],
+    "testing_recommendations": [
+      "Schedule monthly security assessments",
+      "Implement continuous security testing",
+      "Conduct regular penetration testing",
+      "Perform code security reviews",
+      "Test against latest attack vectors"
+    ]
+  }
+}

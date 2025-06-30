@@ -1,0 +1,10 @@
+{
+  "scan_id": "5878eeb0-6165-44dd-967d-c9014061947d",
+  "status": "running",
+  "message": "Scan not yet completed",
+  "progress": 75.33,
+  "real_time_monitoring": {
+    "websocket_endpoint": "/ws/scan/5878eeb0-6165-44dd-967d-c9014061947d",
+    "sse_progress": "/api/scans/5878eeb0-6165-44dd-967d-c9014061947d/stream"
+  }
+}

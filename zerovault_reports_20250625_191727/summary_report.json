@@ -1,0 +1,17 @@
+{
+  "scan_id": "e5684c7f-e275-4feb-941b-8bd14884bfa3",
+  "scan_status": "completed",
+  "available_reports": {
+    "executive": "/api/reports/e5684c7f-e275-4feb-941b-8bd14884bfa3/executive",
+    "technical": "/api/reports/e5684c7f-e275-4feb-941b-8bd14884bfa3/technical",
+    "compliance": "/api/reports/e5684c7f-e275-4feb-941b-8bd14884bfa3/compliance"
+  },
+  "scan_summary": {
+    "target_model": "ZeroVault Comprehensive Security Assessment",
+    "vulnerability_count": 1,
+    "risk_score": 0.67,
+    "completed_at": "2025-06-25T13:45:34.770535",
+    "total_api_calls": 15,
+    "total_tokens_used": 3797
+  }
+}

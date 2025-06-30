@@ -1,0 +1,17 @@
+{
+  "scan_id": "5878eeb0-6165-44dd-967d-c9014061947d",
+  "scan_status": "running",
+  "available_reports": {
+    "executive": "/api/reports/5878eeb0-6165-44dd-967d-c9014061947d/executive",
+    "technical": "/api/reports/5878eeb0-6165-44dd-967d-c9014061947d/technical",
+    "compliance": "/api/reports/5878eeb0-6165-44dd-967d-c9014061947d/compliance"
+  },
+  "scan_summary": {
+    "target_model": "Bug Fix Test",
+    "vulnerability_count": 0,
+    "risk_score": 0.0,
+    "completed_at": "2025-06-25T18:41:39.883093",
+    "total_api_calls": 15,
+    "total_tokens_used": 3136
+  }
+}
